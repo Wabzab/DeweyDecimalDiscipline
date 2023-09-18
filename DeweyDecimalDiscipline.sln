@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeweyDecimalDiscipline", "DeweyDecimalDiscipline\DeweyDecimalDiscipline.csproj", "{485228D6-6CE8-4C84-832A-D3CBE1C7C28F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{485228D6-6CE8-4C84-832A-D3CBE1C7C28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485228D6-6CE8-4C84-832A-D3CBE1C7C28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485228D6-6CE8-4C84-832A-D3CBE1C7C28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485228D6-6CE8-4C84-832A-D3CBE1C7C28F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3B52A1A-52FD-4C39-8E2F-F011F397C9CA}
+	EndGlobalSection
+EndGlobal

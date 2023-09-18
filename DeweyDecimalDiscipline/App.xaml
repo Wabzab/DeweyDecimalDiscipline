@@ -1,0 +1,14 @@
+﻿<Application x:Class="DeweyDecimalDiscipline.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DeweyDecimalDiscipline"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="amber" Color="#C3965F"/>
+        <SolidColorBrush x:Key="ivory" Color="#F2EbE5"/>
+        <SolidColorBrush x:Key="duck-egg" Color="#CAD1CE"/>
+        <SolidColorBrush x:Key="ocean" Color="#364A60"/>
+        <SolidColorBrush x:Key="midnight" Color="#1E2B3A"/>
+        <SolidColorBrush x:Key="stone" Color="#6F7275"/>
+    </Application.Resources>
+</Application>
