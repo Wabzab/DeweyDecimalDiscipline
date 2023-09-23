@@ -15,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 using DeweyDecimalDiscipline.Content;
 
 namespace DeweyDecimalDiscipline.Pages
@@ -25,9 +26,13 @@ namespace DeweyDecimalDiscipline.Pages
     public partial class ReplaceBookPage : Page
     {
 
+        DispatcherTimer timer {  get; set; }
+        DateTime startTime { get; set; }
+
         public List<CallNumber> originalList {  get; set; }
         public ObservableCollection<CallNumber> unsortedList { get; set; }
         public ObservableCollection<CallNumber> userSortedList { get; set; }
+
 
         public ReplaceBookPage()
         {
@@ -38,6 +43,31 @@ namespace DeweyDecimalDiscipline.Pages
 
             UnsortedCallNumbers.ItemsSource = unsortedList;
             SortedCallNumbers.ItemsSource = userSortedList;
+
+            startTime = DateTime.Now;
+            timer = new DispatcherTimer();
+			timer.Interval = TimeSpan.FromSeconds(0.1);
+			timer.Tick += timer_Tick;
+			timer.Start();
+		}
+
+
+		void timer_Tick(object sender, EventArgs e)
+		{
+            TimeSpan time = DateTime.Now.Subtract(startTime);
+            lblTime.Content = String.Format("{0}:{1}", (time.Minutes%360).ToString("D2"), (time.Seconds%60).ToString("D2"));
+		}
+
+
+        private void EndGame()
+        {
+            timer.Stop();
+            String endMessage = "You lost!";
+            if (CallNumberHandler.IsSorted(new List<CallNumber>(userSortedList)))
+            {
+                endMessage = "You won!";
+            }
+            MessageBox.Show(endMessage);
         }
 
 
@@ -53,6 +83,10 @@ namespace DeweyDecimalDiscipline.Pages
                     {
                         userSortedList.Add((CallNumber)UnsortedCallNumbers.SelectedItem);
                         unsortedList.Remove((CallNumber)UnsortedCallNumbers.SelectedItem);
+                        if (unsortedList.Count == 0)
+                        {
+                            EndGame();
+                        }
                     }
                 }
                 obj = VisualTreeHelper.GetParent(obj);

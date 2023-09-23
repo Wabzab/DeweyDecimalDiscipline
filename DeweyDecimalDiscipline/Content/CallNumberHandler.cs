@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace DeweyDecimalDiscipline.Content
 {
@@ -11,6 +12,7 @@ namespace DeweyDecimalDiscipline.Content
     {
 
         static Random random = new Random();
+
 
         public static List<CallNumber> GenerateCallNumbers(int count)
         {
@@ -21,6 +23,21 @@ namespace DeweyDecimalDiscipline.Content
                 unsortedList.Add(new CallNumber() { Number=number, Author="ABC" });
             }
             return unsortedList;
+        }
+
+
+        public static Boolean IsSorted(List<CallNumber> unsortedList)
+        {
+            List<CallNumber> sortedList = new List<CallNumber>(unsortedList);
+            sortedList.Sort(delegate(CallNumber cn1, CallNumber cn2) { return cn1.Number.CompareTo(cn2.Number); });
+            for (int i = 0; i < unsortedList.Count; i++)
+            {
+                if (unsortedList[i].Number != sortedList[i].Number)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }
