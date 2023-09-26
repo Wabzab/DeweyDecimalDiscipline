@@ -4,8 +4,8 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:DeweyDecimalDiscipline.Pages"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      mc:Ignorable="d"
+      d:DesignHeight="768" d:DesignWidth="1366"
       Title="LandingPage"
       Background="{StaticResource ivory}">
     
@@ -45,26 +45,63 @@
                     Identifying Areas
                 </Button>
                 <Button x:Name="btnFindCallNum" Click="btnFindCallNum_Click">
-                    Finding Call Numbers
+                    Call Number Quiz
                 </Button>
             </StackPanel>
             <Grid Grid.Column="1">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="1*"/>
-                    <RowDefinition Height="1*"/>
-                </Grid.RowDefinitions>
-                <StackPanel Grid.Row="0" Orientation="Vertical" Background="{StaticResource duck-egg}" Margin="5, 5, 5, 5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" Background="{StaticResource duck-egg}" Margin="5, 5, 5, 5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="5*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="5*"/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                           Foreground="{StaticResource midnight}" 
+                           FontFamily="Impact" FontSize="24">
+                        <TextBlock TextDecorations="Underline">Replace</TextBlock>
+                    </Label>
+                    <Label Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"
+                           HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"
+                           Foreground="{StaticResource midnight}"
+                           Background="{StaticResource ivory}"
+                           FontFamily="Impact" FontSize="20">
+                        <TextBlock TextDecorations="Underline">Recent Scores</TextBlock>
+                    </Label>
+                    <ListBox Grid.Row="2" x:Name="lbReplace" Background="{StaticResource ivory}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Label Content="{Binding Description}" FontFamily="Verdana" FontSize="16" 
+                                    Foreground="{StaticResource midnight}"
+                                    HorizontalAlignment="Center" Margin="10, 0, 10, 0"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                        <ListBox.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel HorizontalAlignment="Center"/>
+                            </ItemsPanelTemplate>
+                        </ListBox.ItemsPanel>
+                    </ListBox>
+                </Grid>
+                
+                <StackPanel Grid.Column="1" Orientation="Vertical" Background="{StaticResource duck-egg}" Margin="5, 5, 5, 5">
                     <Label HorizontalAlignment="Center"
                            Foreground="{StaticResource midnight}" 
                            FontFamily="Impact" FontSize="24">
-                        <TextBlock TextDecorations="Underline">Statistics</TextBlock>
+                        <TextBlock TextDecorations="Underline">Identify</TextBlock>
                     </Label>
                 </StackPanel>
-                <StackPanel Grid.Row="1" Orientation="Vertical" Background="{StaticResource duck-egg}" Margin="5, 5, 5, 5">
+                <StackPanel Grid.Column="2" Orientation="Vertical" Background="{StaticResource duck-egg}" Margin="5, 5, 5, 5">
                     <Label HorizontalAlignment="Center"
                            Foreground="{StaticResource midnight}" 
                            FontFamily="Impact" FontSize="24">
-                        <TextBlock TextDecorations="Underline">Achievements</TextBlock>
+                        <TextBlock TextDecorations="Underline">Quiz</TextBlock>
                     </Label>
                 </StackPanel>
             </Grid>

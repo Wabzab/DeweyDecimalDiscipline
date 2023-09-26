@@ -26,7 +26,17 @@
                 <ColumnDefinition Width="3*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-
+            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center"
+                       Background="{StaticResource duck-egg}" Foreground="{StaticResource midnight}"
+                       FontSize="14" FontFamily="Verdana" Margin="5, 5, 5, 5">
+                Double-click call numbers to move them to the other column.
+                <LineBreak/>
+                <LineBreak/>
+                Move all call numbers into the `Sorted` column in the correct order to win the game.
+                <LineBreak/>
+                <LineBreak/>
+                Try to be as fast as possible!
+            </TextBlock>
             <Grid Grid.Column="1" Background="{StaticResource ivory}">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="1*"/>
@@ -38,7 +48,7 @@
                         <ColumnDefinition Width="1*"/>
                         <ColumnDefinition Width="2*"/>
                     </Grid.ColumnDefinitions>
-                    <Label Grid.Column="1" x:Name="lblTime" Content="10"
+                    <Label Grid.Column="1" x:Name="lblTime" Content="00:00"
                            HorizontalAlignment="Center" VerticalAlignment="Center"
                            FontFamily="Impact" FontSize="20" Foreground="{StaticResource midnight}"/>
                     <Label Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"

@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace DeweyDecimalDiscipline.Content
 {
+    /*
+     * Data class for a CallNumber
+     * Used to keep track of all the data related to a call number.
+     * Has a number and an author, and a description which is the conjunction of both.
+     */
     public class CallNumber
     {
 
