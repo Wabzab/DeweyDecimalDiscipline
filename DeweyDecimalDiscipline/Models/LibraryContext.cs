@@ -40,6 +40,7 @@ namespace DeweyDecimalDiscipline.Models
             {
                 Directory.CreateDirectory(folderPath);
             }
+            Database.Migrate();
         }
 
     }
