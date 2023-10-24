@@ -1,21 +1,14 @@
 ﻿using DeweyDecimalDiscipline.Content;
+using DeweyDecimalDiscipline.Data;
+using DeweyDecimalDiscipline.Models;
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace DeweyDecimalDiscipline.Pages
 {
@@ -27,6 +20,11 @@ namespace DeweyDecimalDiscipline.Pages
 
         public const int MATCH_WIDTH = 4;
         public const int CLEAR_WIDTH = 4;
+
+        // Time Objects used to keep track of time
+        DispatcherTimer timer { get; set; }
+        DateTime startTime { get; set; }
+        TimeSpan time { get; set; }
 
         public List<CallNumber> CallNumbers { get; set; }
         public Dictionary<string, string> MatchA { get; set; }
@@ -42,7 +40,7 @@ namespace DeweyDecimalDiscipline.Pages
             MatchA = new Dictionary<string, string>();
             MatchB = new Dictionary<string, string>();
 
-            // Load content into the matching columns
+            // Select random call number groups and descriptions
             Random random = new Random();
             for (int i = 0; i < 4; i++)
             {
@@ -60,9 +58,40 @@ namespace DeweyDecimalDiscipline.Pages
                 MatchB.Add(callNumber.Name, callNumber.Description);
             }
 
-            matchA.ItemsSource = MatchA;
-            matchB.ItemsSource = MatchB;
+            // Randomise content and then visualise it
+            matchA.ItemsSource = MatchA.OrderBy(x => random.Next()).ToDictionary(item => item.Key, item => item.Value);
+            matchB.ItemsSource = MatchB.OrderBy(x => random.Next()).ToDictionary(item => item.Key, item => item.Value);
 
+            // Start timer
+            startTime = DateTime.Now;
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(0.1);
+            timer.Tick += timer_Tick;
+            timer.Start();
+
+        }
+
+        // Update clock every timer tick
+        void timer_Tick(object sender, EventArgs e)
+        {
+            time = DateTime.Now.Subtract(startTime);
+            lblTime.Content = string.Format("{0}:{1}", (time.Minutes).ToString("D2"), (time.Seconds).ToString("D2"));
+        }
+
+        private void GameOver()
+        {
+            // Stop timer
+            timer.Stop();
+            // Record score sheet data
+            
+            // Inform user of result
+            string endMessage = string.Format("You have finished the game!");
+            MessageBox.Show(endMessage);
+            // Store score sheet
+            //ReplacementDAO.Add(scoreSheet);
+            // Navigate to home page
+            LandingPage landingPage = new LandingPage();
+            this.NavigationService.Navigate(landingPage);
         }
 
         private void SaveMatchedPair(MatchedPair matchedPair)
@@ -70,7 +99,9 @@ namespace DeweyDecimalDiscipline.Pages
             List<MatchedPair> removedPairs = new List<MatchedPair>();
             foreach (var pair in MatchedPairs)
             {
-                if(pair.A == matchedPair.A || pair.B == matchedPair.B)
+                updateListItemBrush(pair.itemA, pair.brush, MATCH_WIDTH);
+                updateListItemBrush(pair.itemB, pair.brush, MATCH_WIDTH);
+                if (pair.A == matchedPair.A || pair.B == matchedPair.B)
                 {
                     removedPairs.Add(pair);
                 }
@@ -82,11 +113,13 @@ namespace DeweyDecimalDiscipline.Pages
                 MatchedPairs.Remove(pair);
             }
             MatchedPairs.Add(matchedPair);
-            foreach (var pair in MatchedPairs)
+            updateListItemBrush(matchedPair.itemA, matchedPair.brush, MATCH_WIDTH);
+            updateListItemBrush(matchedPair.itemB, matchedPair.brush, MATCH_WIDTH);
+            
+            if(MatchedPairs.Count == 4)
             {
-                Debug.WriteLine("{0} : {1}", pair.A, pair.B);
+                GameOver();
             }
-            Debug.WriteLine("Successfully saved pair: {0}-{1}", matchedPair.A, matchedPair.B);
         }
 
         private void OnNameDoubleClick(object sender, RoutedEventArgs e)
@@ -103,15 +136,9 @@ namespace DeweyDecimalDiscipline.Pages
                         {
                             CurrentMatchedPair = new MatchedPair();
                         }
-                        if(CurrentMatchedPair.A != string.Empty && CurrentMatchedPair.itemA != null)
-                        {
-                            updateListItemBrush(CurrentMatchedPair.itemA, (SolidColorBrush)FindResource("duck-egg"), CLEAR_WIDTH);
-                        }
-                        //obj.
                         KeyValuePair<string, string> item = (KeyValuePair<string, string>)matchA.SelectedItem;
                         CurrentMatchedPair.A = item.Key;
                         CurrentMatchedPair.itemA = (ListBoxItem)obj;
-                        updateListItemBrush(CurrentMatchedPair.itemA, CurrentMatchedPair.brush, MATCH_WIDTH);
 
                         if (CurrentMatchedPair.B != string.Empty)
                         {
@@ -140,14 +167,9 @@ namespace DeweyDecimalDiscipline.Pages
                         {
                             CurrentMatchedPair = new MatchedPair();
                         }
-                        if (CurrentMatchedPair.B != string.Empty && CurrentMatchedPair.itemB != null)
-                        {
-                            updateListItemBrush(CurrentMatchedPair.itemB, (SolidColorBrush)FindResource("duck-egg"), CLEAR_WIDTH);
-                        }
                         KeyValuePair<string, string> item = (KeyValuePair<string, string>)matchB.SelectedItem;
                         CurrentMatchedPair.B = item.Key;
                         CurrentMatchedPair.itemB = (ListBoxItem)obj;
-                        updateListItemBrush(CurrentMatchedPair.itemB, CurrentMatchedPair.brush, MATCH_WIDTH);
 
                         if (CurrentMatchedPair.A != string.Empty)
                         {
