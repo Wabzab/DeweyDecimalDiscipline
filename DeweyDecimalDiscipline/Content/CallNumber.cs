@@ -14,16 +14,21 @@ namespace DeweyDecimalDiscipline.Content
     public class CallNumber
     {
 
+
+        public string Name
+        {
+            get { return Number + " " + Author; }
+            set { /* Do Nothing */ }
+        }
         public string Number { get; set; }
         public string Author { get; set; }
-        public string Description {
-            get { return Number + " " + Author; }
-            set { /* Do Nothing */ } }
+        public string Description { get; set; }
 
         public CallNumber() 
         {
             Number = "000";
             Author = "ABC";
+            Description = "A description about the topic this call number represents.";
         }
     }
 }

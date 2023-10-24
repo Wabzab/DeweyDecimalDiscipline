@@ -69,7 +69,7 @@
                     <ListBox x:Name="UnsortedCallNumbers" Background="{StaticResource ivory}" Grid.Column="0" MouseDoubleClick="UnsortedCallNumbers_MouseDoubleClick" SelectionMode="Single">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
-                                <Label Content="{Binding Description}" FontFamily="Verdana" FontSize="16"
+                                <Label Content="{Binding Name}" FontFamily="Verdana" FontSize="16"
                                        Background="{StaticResource amber}" Foreground="{StaticResource midnight}"
                                        HorizontalAlignment="Center"/>
                             </DataTemplate>

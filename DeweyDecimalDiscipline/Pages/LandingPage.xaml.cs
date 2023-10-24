@@ -50,8 +50,8 @@ namespace DeweyDecimalDiscipline.Pages
         // Handle Area Identification Task Selection
         private void btnIdentifyArea_Click(object sender, RoutedEventArgs e)
         {
-            // Navigate to IdentifyAreaPage when necessary
-            return;
+            IdentifyingAreasPage identifyingAreasPage = new IdentifyingAreasPage();
+            NavigationService.Navigate(identifyingAreasPage);
         }
 
         // Handle Call Number Quiz Task Selection

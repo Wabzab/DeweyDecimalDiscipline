@@ -1,0 +1,76 @@
+﻿<Page x:Class="DeweyDecimalDiscipline.Pages.IdentifyingAreasPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DeweyDecimalDiscipline.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="IdentifyingAreasPage"
+      Background="{DynamicResource midnight}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        
+        
+        <Border BorderBrush="{DynamicResource amber}" BorderThickness="1"/>
+        <Label Grid.Row="0" FontFamily="Impact" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource ivory}">
+            Identifying Areas
+        </Label>
+
+        <ListBox x:Name="matchA" Background="{StaticResource ocean}" Grid.Row="1" MouseDoubleClick="OnNameDoubleClick" SelectionMode="Single">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Background="{StaticResource duck-egg}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <Border x:Name="border" BorderBrush="{DynamicResource duck-egg}" BorderThickness="2"/>
+                        <Label Content="{Binding Key}" FontFamily="Verdana" FontSize="20"
+                            Foreground="{StaticResource midnight}" Margin="10, 10, 10, 10"
+                            HorizontalAlignment="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+
+        <ListBox x:Name="matchB" Background="{StaticResource ocean}" Grid.Row="2" MouseDoubleClick="OnDescriptionDoubleClick" SelectionMode="Single">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Background="{StaticResource duck-egg}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <Border x:Name="border" BorderBrush="{DynamicResource duck-egg}" BorderThickness="2"/>
+                        <Label Content="{Binding Value}" FontFamily="Verdana" FontSize="20"
+                            Foreground="{StaticResource midnight}" Margin="10, 10, 10, 10"
+                            HorizontalAlignment="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" Width="750"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+    </Grid>
+</Page>

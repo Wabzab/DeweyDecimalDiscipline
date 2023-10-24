@@ -1,0 +1,54 @@
+{
+  "CallNumbers": [
+    {
+      "Number": "000",
+      "Author": "",
+      "Description": "Computer Science, Information, and General Works"
+    },
+    {
+      "Number": "100",
+      "Author": "",
+      "Description": "Philosophy and Psychology"
+    },
+    {
+      "Number": "200",
+      "Author": "",
+      "Description": "Religion"
+    },
+    {
+      "Number": "300",
+      "Author": "",
+      "Description": "Social Sciences"
+    },
+    {
+      "Number": "400",
+      "Author": "",
+      "Description": "Languages"
+    },
+    {
+      "Number": "500",
+      "Author": "",
+      "Description": "Sciences"
+    },
+    {
+      "Number": "600",
+      "Author": "",
+      "Description": "Technology"
+    },
+    {
+      "Number": "700",
+      "Author": "",
+      "Description": "Arts and Recreation"
+    },
+    {
+      "Number": "800",
+      "Author": "",
+      "Description": "Literature"
+    },
+    {
+      "Number": "900",
+      "Author": "",
+      "Description": "History and Geography"
+    }
+  ]
+}
