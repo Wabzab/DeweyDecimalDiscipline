@@ -1,4 +1,5 @@
-﻿using DeweyDecimalDiscipline.Data;
+﻿using DeweyDecimalDiscipline.Content.Acheivements;
+using DeweyDecimalDiscipline.Data;
 using DeweyDecimalDiscipline.Models;
 using System;
 using System.Collections.Generic;
@@ -25,19 +26,28 @@ namespace DeweyDecimalDiscipline.Pages
         public LandingPage()
         {
             InitializeComponent();
-            DisplayReplaceScores();
+            DisplayScores();
         }
 
 
-        private void DisplayReplaceScores()
+        private void DisplayScores()
         {
             List<Replacement> replacements = ReplacementDAO.GetAll();
-            List<ReplaceScore> scores = new List<ReplaceScore>();
+            List<Score> replacementScores = new List<Score>();
             foreach (Replacement r in replacements)
             {
-                scores.Add(new ReplaceScore() { Description = string.Format("{0}: {1} | {2}s", r.Date.ToString("dd/MM/yyyy"), r.Score.ToString("D2"), r.Time.TotalSeconds.ToString("#.##")) });
+                replacementScores.Add(new Score(string.Format("{0}: {1}% | {2}s", r.Date.ToString("dd/MM/yyyy"), (r.Score/10.0*100), r.Time.TotalSeconds.ToString("#.##"))));
             }
-            lbReplace.ItemsSource = scores;
+            lbReplace.ItemsSource = replacementScores;
+            lbReplaceAchievements.ItemsSource = ReplaceAchievements.Achievements;
+
+            List<Identifying> identifyings = IdentifyingDAO.GetAll();
+            List<Score> identifyingScores = new List<Score>();
+            foreach (Identifying i in identifyings)
+            {
+                identifyingScores.Add(new Score(string.Format("{0}: {1}% | {2}s", i.Date.ToString("dd/MM/yyyy"), (i.Score/4.0*100), i.Time.TotalSeconds.ToString("#.##"))));
+            }
+            lbIdentify.ItemsSource = identifyingScores;
         }
 
         // Handle Book Replacement Task Selection
@@ -62,8 +72,9 @@ namespace DeweyDecimalDiscipline.Pages
         }
     }
 
-    class ReplaceScore
+    class Score
     {
         public string Description { get; set; }
+        public Score(string desc) { Description = desc; }
     }
 }

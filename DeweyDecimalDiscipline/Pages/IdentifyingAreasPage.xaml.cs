@@ -83,12 +83,15 @@ namespace DeweyDecimalDiscipline.Pages
             // Stop timer
             timer.Stop();
             // Record score sheet data
-            
+            Identifying scoresheet = new Identifying();
+            scoresheet.Time = time;
+            scoresheet.Date = startTime;
+            scoresheet.Score = CallNumberMatchHandler.getScore(MatchedPairs);
             // Inform user of result
-            string endMessage = string.Format("You have finished the game!");
+            string endMessage = string.Format("Game over: {0}% in {1}s", (scoresheet.Score/4.0*100), scoresheet.Time.TotalSeconds);
             MessageBox.Show(endMessage);
             // Store score sheet
-            //ReplacementDAO.Add(scoreSheet);
+            IdentifyingDAO.Add(scoresheet);
             // Navigate to home page
             LandingPage landingPage = new LandingPage();
             this.NavigationService.Navigate(landingPage);
