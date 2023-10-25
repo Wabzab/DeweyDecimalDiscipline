@@ -12,7 +12,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="4*"/>
+            <RowDefinition Height="5*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         
@@ -30,13 +30,12 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
             
-            <ListBox x:Name="matchA" Background="{StaticResource ocean}" Grid.Column="0" MouseDoubleClick="OnNameDoubleClick" SelectionMode="Single">
+            <ListBox x:Name="matchA" Background="{StaticResource ivory}" Grid.Column="0" MouseDoubleClick="OnNameDoubleClick" SelectionMode="Single">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
-                        <Grid Background="{StaticResource duck-egg}">
-                            <Border x:Name="border" BorderBrush="{DynamicResource duck-egg}" BorderThickness="2"/>
-                            <Label Content="{Binding Key}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" Margin="10, 10, 10, 10"/>
-                        </Grid>
+                        <Border x:Name="border" BorderBrush="{DynamicResource amber}" BorderThickness="1" CornerRadius="2">
+                            <Label Content="{Binding Key}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" Background="{StaticResource duck-egg}" Padding="10"/>
+                        </Border>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
                 <ListBox.ItemContainerStyle>
@@ -52,13 +51,12 @@
                 </ListBox.ItemsPanel>
             </ListBox>
 
-            <ListBox x:Name="matchB" Background="{StaticResource ocean}" Grid.Column="1" MouseDoubleClick="OnDescriptionDoubleClick" SelectionMode="Single">
+            <ListBox x:Name="matchB" Background="{StaticResource ivory}" Grid.Column="1" MouseDoubleClick="OnDescriptionDoubleClick" SelectionMode="Single">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
-                        <Grid Background="{StaticResource duck-egg}">
-                            <Border x:Name="border" BorderBrush="{DynamicResource duck-egg}" BorderThickness="2"/>
-                            <Label Content="{Binding Value}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" Margin="10, 10, 10, 10"/>
-                        </Grid>
+                        <Border x:Name="border" BorderBrush="{DynamicResource amber}" BorderThickness="1" CornerRadius="2">
+                            <Label Content="{Binding Value}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" Background="{StaticResource duck-egg}" Padding="10"/>
+                        </Border>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
                 <ListBox.ItemContainerStyle>

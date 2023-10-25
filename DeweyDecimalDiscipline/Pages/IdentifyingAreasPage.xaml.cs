@@ -36,26 +36,52 @@ namespace DeweyDecimalDiscipline.Pages
         {
             InitializeComponent();
 
+            string tutorial = ("Double click an item in the left column to select it.\n\n" +
+                "Double clicking an item in the right column then matches the two and identifies the match with a colored border.\n\n" +
+                "Match all four items in the left colomn with any four items in the right colomn to complete the task.\n\n" +
+                "Try to match items in the left column with their counterpart in the right column as fast as possible!");
+            var result = MessageBox.Show(tutorial, "Identifying Areas", MessageBoxButton.OK);
+
             CallNumbers = CallNumberMatchHandler.GetCallNumbers();
             MatchA = new Dictionary<string, string>();
             MatchB = new Dictionary<string, string>();
 
             // Select random call number groups and descriptions
             Random random = new Random();
+            bool flipped = false;
+            if(random.Next()%2 ==0)
+            {
+                flipped = true;
+            }
             for (int i = 0; i < 4; i++)
             {
                 CallNumber callNumber = CallNumbers[random.Next(CallNumbers.Count)];
                 CallNumbers.Remove(callNumber);
 
-                MatchA.Add(callNumber.Name, callNumber.Description);
-                MatchB.Add(callNumber.Name, callNumber.Description);
+                if(flipped)
+                {
+                    MatchA.Add(callNumber.Name, callNumber.Description);
+                    MatchB.Add(callNumber.Name, callNumber.Description);
+                } else
+                {
+                    MatchA.Add(callNumber.Description, callNumber.Name);
+                    MatchB.Add(callNumber.Description, callNumber.Name);
+                }
+                
             }
             for (int i = 0; i < 3; i++)
             {
                 CallNumber callNumber = CallNumbers[random.Next(CallNumbers.Count)];
                 CallNumbers.Remove(callNumber);
 
-                MatchB.Add(callNumber.Name, callNumber.Description);
+                if (flipped)
+                {
+                    MatchB.Add(callNumber.Name, callNumber.Description);
+                } else
+                {
+                    MatchB.Add(callNumber.Description, callNumber.Name);
+                }
+                
             }
 
             // Randomise content and then visualise it

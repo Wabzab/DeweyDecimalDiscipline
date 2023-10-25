@@ -8,7 +8,7 @@
       d:DesignHeight="768" d:DesignWidth="1366"
       Title="LandingPage"
       Background="{StaticResource midnight}">
-    
+   
     <Grid Margin="10, 10, 10, 10">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
@@ -54,9 +54,18 @@
                 <ListBox Grid.Row="3" x:Name="lbReplace" Background="{StaticResource ivory}">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
-                            <Label Content="{Binding Description}" FontFamily="Verdana" FontSize="16" 
-                                    Foreground="{StaticResource midnight}"
-                                    HorizontalAlignment="Center" Margin="10, 0, 10, 0"/>
+                            <Border BorderBrush="{StaticResource amber}" BorderThickness="2" CornerRadius="2" Background="{StaticResource duck-egg}">
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="100"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Content="{Binding Date}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}"/>
+                                    <Label Grid.Column="1" Content="{Binding Score}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" HorizontalAlignment="Center"/>
+                                    <Label Grid.Column="2" Content="{Binding Time}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" HorizontalAlignment="Center"/>
+                                </Grid>
+                            </Border>
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                     <ListBox.ItemsPanel>
@@ -75,9 +84,16 @@
                 <ListBox Grid.Row="5" x:Name="lbReplaceAchievements" Background="{StaticResource ivory}">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
-                            <Label Content="{Binding Description}" FontFamily="Verdana" FontSize="16" 
-                                    Foreground="{StaticResource midnight}"
-                                    HorizontalAlignment="Center" Margin="10, 0, 10, 0"/>
+                            <Border BorderBrush="{StaticResource amber}" BorderThickness="2" CornerRadius="2" Background="{StaticResource duck-egg}">
+                                <StackPanel>
+                                    <TextBlock Grid.Row="0" Text="{Binding Name}" FontFamily="Impact" FontSize="20" 
+                                        Foreground="{StaticResource midnight}" TextDecorations="Underline"
+                                        HorizontalAlignment="Center" Margin="10, 10, 10, 0"/>
+                                    <TextBlock Grid.Row="1" Text="{Binding Description}" FontFamily="Verdana" FontSize="16" 
+                                        Foreground="{StaticResource stone}" Width="300"
+                                        HorizontalAlignment="Left" Margin="10, 0, 10, 10" TextWrapping="Wrap"/>
+                                </StackPanel>
+                            </Border>
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                     <ListBox.ItemsPanel>
@@ -118,9 +134,46 @@
                 <ListBox Grid.Row="3" x:Name="lbIdentify" Background="{StaticResource ivory}">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
-                            <Label Content="{Binding Description}" FontFamily="Verdana" FontSize="16" 
-                                    Foreground="{StaticResource midnight}"
-                                    HorizontalAlignment="Center" Margin="10, 0, 10, 0"/>
+                            <Border BorderBrush="{StaticResource amber}" BorderThickness="2" CornerRadius="2" Background="{StaticResource duck-egg}">
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="100"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Content="{Binding Date}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}"/>
+                                    <Label Grid.Column="1" Content="{Binding Score}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" HorizontalAlignment="Center"/>
+                                    <Label Grid.Column="2" Content="{Binding Time}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" HorizontalAlignment="Center"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel HorizontalAlignment="Center"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+                <Label Grid.Row="4" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"
+                           HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"
+                           Foreground="{StaticResource midnight}"
+                           Background="{StaticResource ivory}"
+                           FontFamily="Impact" FontSize="20">
+                    <TextBlock TextDecorations="Underline">Achievements</TextBlock>
+                </Label>
+                <ListBox Grid.Row="5" x:Name="lbIdentifyAchievements" Background="{StaticResource ivory}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderBrush="{StaticResource amber}" BorderThickness="2" CornerRadius="2" Background="{StaticResource duck-egg}">
+                                <StackPanel>
+                                    <TextBlock Grid.Row="0" Text="{Binding Name}" FontFamily="Impact" FontSize="20" 
+                                        Foreground="{StaticResource midnight}" TextDecorations="Underline"
+                                        HorizontalAlignment="Center" Margin="10, 10, 10, 0"/>
+                                    <TextBlock Grid.Row="1" Text="{Binding Description}" FontFamily="Verdana" FontSize="16" 
+                                        Foreground="{StaticResource stone}" Width="300"
+                                        HorizontalAlignment="Left" Margin="10, 0, 10, 10" TextWrapping="Wrap"/>
+                                </StackPanel>
+                            </Border>
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                     <ListBox.ItemsPanel>

@@ -7,94 +7,90 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ReplaceBookPage"
-      Background="{StaticResource duck-egg}">
+      Background="{StaticResource midnight}">
     
     <Grid x:Name="grid1">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="6*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
         <Label Grid.Row="0" Content="Book Replacement" 
                HorizontalAlignment="Center" VerticalAlignment="Center" 
-               Foreground="{StaticResource midnight}" 
+               Foreground="{StaticResource ivory}" 
                FontSize="32" FontFamily="Impact"/>
+        <Border Grid.Row="0" BorderBrush="{StaticResource amber}" BorderThickness="2"/>
+
+        <Label Grid.Row="2" x:Name="lblTime" Content="00:00"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                FontFamily="Impact" FontSize="30" Foreground="{StaticResource amber}"/>
 
         <Grid Grid.Row="1" Background="{StaticResource ocean}">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="3*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center"
-                       Background="{StaticResource duck-egg}" Foreground="{StaticResource midnight}"
-                       FontSize="14" FontFamily="Verdana" Margin="5, 5, 5, 5">
-                Double-click call numbers to move them to the other column.
-                <LineBreak/>
-                <LineBreak/>
-                Move all call numbers into the `Sorted` column in the correct order to win the game.
-                <LineBreak/>
-                <LineBreak/>
-                Try to be as fast as possible!
-            </TextBlock>
-            <Grid Grid.Column="1" Background="{StaticResource ivory}">
+
+            <Grid Grid.Column="0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="1*"/>
                     <RowDefinition Height="9*"/>
                 </Grid.RowDefinitions>
-                <Grid Background="{StaticResource amber}">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="2*"/>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="2*"/>
-                    </Grid.ColumnDefinitions>
-                    <Label Grid.Column="1" x:Name="lblTime" Content="00:00"
-                           HorizontalAlignment="Center" VerticalAlignment="Center"
-                           FontFamily="Impact" FontSize="20" Foreground="{StaticResource midnight}"/>
-                    <Label Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"
+
+                <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"
                            FontFamily="Impact" FontSize="24" Foreground="{StaticResource midnight}">
-                        Unsorted
-                    </Label>
-                    <Label Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Unsorted
+                </Label>
+                <ListBox Grid.Row="1" x:Name="UnsortedCallNumbers" Background="{StaticResource ivory}" MouseDoubleClick="UnsortedCallNumbers_MouseDoubleClick" SelectionMode="Single">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Viewbox Stretch="Fill" HorizontalAlignment="Center">
+                                <Border BorderBrush="{StaticResource amber}" BorderThickness="1" CornerRadius="2">
+                                    <Label Content="{Binding Name}" FontFamily="Verdana" FontSize="20"
+                                        Background="{StaticResource duck-egg}" Foreground="{StaticResource midnight}"
+                                        HorizontalAlignment="Center"/>
+                                </Border>
+                            </Viewbox>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="9*"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"
                            FontFamily="Impact" FontSize="24" Foreground="{StaticResource midnight}">
-                        Sorted
-                    </Label>
-                </Grid>
-                <Grid Grid.Row="1">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="2*"/>
-                        <ColumnDefinition Width="1*"/>
-                        <ColumnDefinition Width="2*"/>
-                    </Grid.ColumnDefinitions>
-                    <ListBox x:Name="UnsortedCallNumbers" Background="{StaticResource ivory}" Grid.Column="0" MouseDoubleClick="UnsortedCallNumbers_MouseDoubleClick" SelectionMode="Single">
-                        <ListBox.ItemTemplate>
-                            <DataTemplate>
-                                <Label Content="{Binding Name}" FontFamily="Verdana" FontSize="16"
-                                       Background="{StaticResource amber}" Foreground="{StaticResource midnight}"
-                                       HorizontalAlignment="Center"/>
-                            </DataTemplate>
-                        </ListBox.ItemTemplate>
-                        <ListBox.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <StackPanel HorizontalAlignment="Center"/>
-                            </ItemsPanelTemplate>
-                        </ListBox.ItemsPanel>
-                    </ListBox>
-                    <ListBox x:Name="SortedCallNumbers" Background="{StaticResource ivory}" Grid.Column="2" MouseDoubleClick="SortedCallNumbers_MouseDoubleClick" SelectionMode="Single">
-                        <ListBox.ItemTemplate>
-                            <DataTemplate>
-                                <Label Content="{Binding Description}" FontFamily="Verdana" FontSize="16"
-                                       Background="{StaticResource amber}" Foreground="{StaticResource midnight}"
-                                       HorizontalAlignment="Center"/>
-                            </DataTemplate>
-                        </ListBox.ItemTemplate>
-                        <ListBox.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <StackPanel HorizontalAlignment="Center"/>
-                            </ItemsPanelTemplate>
-                        </ListBox.ItemsPanel>
-                    </ListBox>
-                </Grid>
+                    Sorted
+                </Label>
+                <ListBox Grid.Row="1" x:Name="SortedCallNumbers" Background="{StaticResource ivory}" MouseDoubleClick="SortedCallNumbers_MouseDoubleClick" SelectionMode="Single">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Viewbox Stretch="Fill" HorizontalAlignment="Center">
+                                <Border BorderBrush="{StaticResource amber}" BorderThickness="1" CornerRadius="2">
+                                    <Label Content="{Binding Name}" FontFamily="Verdana" FontSize="20"
+                                    Background="{StaticResource duck-egg}" Foreground="{StaticResource midnight}"
+                                    HorizontalAlignment="Center"/>
+                                </Border>
+                            </Viewbox>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel HorizontalAlignment="Center"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
             </Grid>
         </Grid>
     </Grid>

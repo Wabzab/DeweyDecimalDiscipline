@@ -30,6 +30,13 @@ namespace DeweyDecimalDiscipline.Pages
         public ReplaceBookPage()
         {
             InitializeComponent();
+
+            string tutorial = ("Double clicking an item in the left column moves it to the right column.\n\n" +
+                "Double clicking an item in the right column moves it back to the left column.\n\n" +
+                "Move all items in the left column to the right column to complete the task.\n\n" +
+                "Try to order them in ascending order from top to bottom as fast as possible!");
+            var result = MessageBox.Show(tutorial, "Identifying Areas", MessageBoxButton.OK);
+
             // Store call number data in lists
             originalList = CallNumberHandler.GenerateCallNumbers(10);
             unsortedList = new ObservableCollection<CallNumber>(originalList);

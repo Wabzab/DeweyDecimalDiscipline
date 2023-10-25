@@ -23,31 +23,50 @@ namespace DeweyDecimalDiscipline.Pages
     /// </summary>
     public partial class LandingPage : Page
     {
+
+        private List<Replacement> replacements = new List<Replacement>();
+        private List<Identifying> identifyings = new List<Identifying>();
+
         public LandingPage()
         {
             InitializeComponent();
             DisplayScores();
+            DisplayAchievements();
         }
 
-
+        // Updates the scores view with most recent scores for the task
         private void DisplayScores()
         {
-            List<Replacement> replacements = ReplacementDAO.GetAll();
-            List<Score> replacementScores = new List<Score>();
+            replacements = ReplacementDAO.GetAll();
+            List<ScoreDescription> rScores = new List<ScoreDescription>();
             foreach (Replacement r in replacements)
             {
-                replacementScores.Add(new Score(string.Format("{0}: {1}% | {2}s", r.Date.ToString("dd/MM/yyyy"), (r.Score/10.0*100), r.Time.TotalSeconds.ToString("#.##"))));
+                rScores.Add(new ScoreDescription(
+                    r.Date.ToString("dd/MM/yyyy"), 
+                    (r.Score/10.0*100).ToString()+"%",
+                    r.Time.TotalSeconds.ToString("#.##")+"s"
+                    ));
             }
-            lbReplace.ItemsSource = replacementScores;
-            lbReplaceAchievements.ItemsSource = ReplaceAchievements.Achievements;
+            lbReplace.ItemsSource = rScores;
 
-            List<Identifying> identifyings = IdentifyingDAO.GetAll();
-            List<Score> identifyingScores = new List<Score>();
+            identifyings = IdentifyingDAO.GetAll();
+            List<ScoreDescription> iScores = new List<ScoreDescription>();
             foreach (Identifying i in identifyings)
             {
-                identifyingScores.Add(new Score(string.Format("{0}: {1}% | {2}s", i.Date.ToString("dd/MM/yyyy"), (i.Score/4.0*100), i.Time.TotalSeconds.ToString("#.##"))));
+                iScores.Add(new ScoreDescription(
+                    i.Date.ToString("dd/MM/yyyy"),
+                    (i.Score / 4.0 * 100).ToString() + "%",
+                    i.Time.TotalSeconds.ToString("#.##")+"s"
+                    ));
             }
-            lbIdentify.ItemsSource = identifyingScores;
+            lbIdentify.ItemsSource = iScores;
+        }
+
+        // Updates the achievements view with locked and unlocked achievements for the task
+        private void DisplayAchievements()
+        {
+            lbReplaceAchievements.ItemsSource = ReplaceAchievements.GetAchievements(replacements);
+            lbIdentifyAchievements.ItemsSource = IdentifyAchievements.GetAchievements(identifyings);
         }
 
         // Handle Book Replacement Task Selection
@@ -72,9 +91,17 @@ namespace DeweyDecimalDiscipline.Pages
         }
     }
 
-    class Score
+    // Holds information about the scoresheet for tasks for displaying in a list box
+    class ScoreDescription
     {
-        public string Description { get; set; }
-        public Score(string desc) { Description = desc; }
+        public string Date { get; set; }
+        public string Time { get; set; }
+        public string Score { get; set; }
+        public ScoreDescription(string date, string score, string time) 
+        { 
+            Date = date;
+            Time = time;
+            Score = score;
+        }
     }
 }

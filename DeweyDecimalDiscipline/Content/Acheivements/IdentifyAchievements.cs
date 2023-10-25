@@ -1,5 +1,4 @@
 ﻿using DeweyDecimalDiscipline.Models;
-using DeweyDecimalDiscipline.Pages;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -9,43 +8,28 @@ using System.Threading.Tasks;
 
 namespace DeweyDecimalDiscipline.Content.Acheivements
 {
-    public static class ReplaceAchievements
+    public static class IdentifyAchievements
     {
         public static List<Achievement> Achievements = new List<Achievement>()
         {
             new Achievement(
-                "Speed Demon I",
-                "Complete a replace books task in under 30 seconds.",
-                new List<Condition>() { new Condition(AchievementConstants.Type.Time, AchievementConstants.Comparison.Less, 30) }
-                ),
-            new Achievement(
-                "Speed Demon II",
-                "Complete a replace books task in under 15 seconds.",
-                new List<Condition>() { new Condition(AchievementConstants.Type.Time, AchievementConstants.Comparison.Less, 15) }
-                ),
-            new Achievement(
-                "Speed Demon III",
-                "Complete a replace books task in under 5 seconds.",
-                new List<Condition>() { new Condition(AchievementConstants.Type.Time, AchievementConstants.Comparison.Less, 5) }
-                ),
-            new Achievement(
-                "Book Worm I",
-                "Complete a replace books task with 50% or higher.",
+                "Dewey Guesser I",
+                "Complete an identify areas task with 50% or higher.",
                 new List<Condition>() { new Condition(AchievementConstants.Type.Score, AchievementConstants.Comparison.More, 0.5) }
                 ),
             new Achievement(
-                "Book Worm II",
-                "Complete a replace books task with 80% or higher.",
-                new List<Condition>() { new Condition(AchievementConstants.Type.Score, AchievementConstants.Comparison.More, 0.8) }
+                "Dewey Guesser II",
+                "Complete an identify areas task with 75% or higher.",
+                new List<Condition>() { new Condition(AchievementConstants.Type.Score, AchievementConstants.Comparison.More, 0.75) }
                 ),
             new Achievement(
-                "Book Worm III",
-                "Complete a replace books task with 100% or higher.",
+                "Dewey Guesser III",
+                "Complete an identify areas task with 100%.",
                 new List<Condition>() { new Condition(AchievementConstants.Type.Score, AchievementConstants.Comparison.More, 1.0) }
                 )
         };
 
-        public static List<Achievement> GetAchievements(List<Replacement> scores)
+        public static List<Achievement> GetAchievements(List<Identifying> scores)
         {
             List<Achievement> result = new List<Achievement>();
             foreach (Achievement a in Achievements)
@@ -53,7 +37,7 @@ namespace DeweyDecimalDiscipline.Content.Acheivements
                 bool conditionsPassed = true;
                 foreach (Condition c in a.Conditions)
                 {
-                    if(!IsConditionPassed(c, scores)) { conditionsPassed = false; break; }
+                    if (!IsConditionPassed(c, scores)) { conditionsPassed = false; break; }
                 }
                 if (conditionsPassed)
                 {
@@ -63,14 +47,15 @@ namespace DeweyDecimalDiscipline.Content.Acheivements
             return result;
         }
 
-        private static bool IsConditionPassed(Condition condition, List<Replacement> scores)
+        private static bool IsConditionPassed(Condition condition, List<Identifying> scores)
         {
-            foreach (Replacement s in scores)
+            foreach (Identifying s in scores)
             {
                 double value = -1;
-                switch (condition.Type) {
+                switch (condition.Type)
+                {
                     case AchievementConstants.Type.Score:
-                        value = s.Score/10.0;
+                        value = s.Score / 4.0;
                         break;
                     case AchievementConstants.Type.Time:
                         value = s.Time.TotalSeconds;
