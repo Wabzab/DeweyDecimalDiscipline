@@ -20,6 +20,8 @@ After using the training software, the user must be able to:
 
 ## How To Use
 Launching the app will land you on the home page, where you can view your statistics
-and achievements for each available task.
+and achievements for each available task, as well as access the tasks themselves.
 
-On the left there is a navigation bar with buttons that take you to each available task.
+The tasks available include:
+- Replacing Books - Sort books by call number in ascending order.
+- Identifying Areas - Match top level call number names to their description, and vice versa.
