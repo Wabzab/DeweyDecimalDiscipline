@@ -184,13 +184,85 @@
                 </ListBox>
             </Grid>
 
-            <StackPanel Grid.Column="2" Orientation="Vertical" Background="{StaticResource duck-egg}" Margin="5, 5, 5, 5">
-                <Label HorizontalAlignment="Center"
-                           Foreground="{StaticResource midnight}" 
+            <Grid Grid.Column="2" Background="{StaticResource ocean}" Margin="5, 5, 5, 5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                           Foreground="{StaticResource amber}" 
                            FontFamily="Impact" FontSize="24">
-                    <TextBlock TextDecorations="Underline">Quiz</TextBlock>
+                    <TextBlock TextDecorations="Underline">Finding Call Numbers</TextBlock>
                 </Label>
-            </StackPanel>
+                <Button Grid.Row="1" x:Name="btnFindCallNumber" Click="btnFindCallNum_Click" 
+                        Margin="50, 0, 50, 0" FontSize="20" FontFamily="Verdana" 
+                        Foreground="{StaticResource midnight}"
+                        Background="{StaticResource ivory}">
+                    Begin Task
+                </Button>
+                <Label Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"
+                           HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"
+                           Foreground="{StaticResource midnight}"
+                           Background="{StaticResource ivory}"
+                           FontFamily="Impact" FontSize="20">
+                    <TextBlock TextDecorations="Underline">Recent Scores</TextBlock>
+                </Label>
+                <ListBox Grid.Row="3" x:Name="lbFind" Background="{StaticResource ivory}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderBrush="{StaticResource amber}" BorderThickness="2" CornerRadius="2" Background="{StaticResource duck-egg}">
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="100"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Content="{Binding Date}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}"/>
+                                    <Label Grid.Column="1" Content="{Binding Score}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" HorizontalAlignment="Center"/>
+                                    <Label Grid.Column="2" Content="{Binding Time}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" HorizontalAlignment="Center"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel HorizontalAlignment="Center"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+                <Label Grid.Row="4" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"
+                           HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom"
+                           Foreground="{StaticResource midnight}"
+                           Background="{StaticResource ivory}"
+                           FontFamily="Impact" FontSize="20">
+                    <TextBlock TextDecorations="Underline">Achievements</TextBlock>
+                </Label>
+                <ListBox Grid.Row="5" x:Name="lbFindAchievements" Background="{StaticResource ivory}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderBrush="{StaticResource amber}" BorderThickness="2" CornerRadius="2" Background="{StaticResource duck-egg}">
+                                <StackPanel>
+                                    <TextBlock Grid.Row="0" Text="{Binding Name}" FontFamily="Impact" FontSize="20" 
+                                        Foreground="{StaticResource midnight}" TextDecorations="Underline"
+                                        HorizontalAlignment="Center" Margin="10, 10, 10, 0"/>
+                                    <TextBlock Grid.Row="1" Text="{Binding Description}" FontFamily="Verdana" FontSize="16" 
+                                        Foreground="{StaticResource stone}" Width="300"
+                                        HorizontalAlignment="Left" Margin="10, 0, 10, 10" TextWrapping="Wrap"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel HorizontalAlignment="Center"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+            </Grid>
         </Grid>
     </Grid>
 </Page>

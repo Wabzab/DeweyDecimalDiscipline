@@ -1,0 +1,88 @@
+﻿<Page x:Class="DeweyDecimalDiscipline.Pages.FindingCallNumbersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DeweyDecimalDiscipline.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="FindingCallNumbersPage"
+      Background="{StaticResource midnight}">
+
+    <Grid x:Name="grid1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Finding Call Numbers" 
+               HorizontalAlignment="Center" VerticalAlignment="Center" 
+               Foreground="{StaticResource ivory}" 
+               FontSize="32" FontFamily="Impact"/>
+        <Border Grid.Row="0" BorderBrush="{StaticResource amber}" BorderThickness="2"/>
+
+        <Label Grid.Row="2" x:Name="lblTime" Content="00:00"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                FontFamily="Impact" FontSize="30" Foreground="{StaticResource amber}"/>
+
+        <Grid Grid.Row="1" Background="{StaticResource ocean}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <ListBox Grid.Row="1" x:Name="TargetCallNumber" Background="{StaticResource ivory}" SelectionMode="Single">
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border HorizontalAlignment="Stretch" Margin="10" BorderBrush="{StaticResource amber}" BorderThickness="1" CornerRadius="2">
+                                <Label Content="{Binding Description}" Padding="10, 15, 10, 15" FontFamily="Verdana" FontSize="20" Background="{StaticResource duck-egg}" Foreground="{StaticResource midnight}" HorizontalAlignment="Stretch"/>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <ListBox Grid.Row="1" x:Name="CallNumberOptions" Background="{StaticResource ivory}" MouseDoubleClick="onOptionsDoubleClick" SelectionMode="Single">
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border HorizontalAlignment="Stretch" Margin="10" Padding="0, 10, 0, 10" BorderBrush="{StaticResource amber}" BorderThickness="2" CornerRadius="2" Background="{StaticResource duck-egg}">
+                                <Grid HorizontalAlignment="Stretch">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="5*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Content="{Binding Number}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" HorizontalAlignment="Center"/>
+                                    <Label Grid.Column="1" Content="{Binding Description}" FontFamily="Verdana" FontSize="20" Foreground="{StaticResource midnight}" HorizontalAlignment="Left"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

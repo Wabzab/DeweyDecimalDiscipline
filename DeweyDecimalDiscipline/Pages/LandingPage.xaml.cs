@@ -86,8 +86,8 @@ namespace DeweyDecimalDiscipline.Pages
         // Handle Call Number Quiz Task Selection
         private void btnFindCallNum_Click(object sender, RoutedEventArgs e)
         {
-            // Navigate to FindCallNumPage when necessary
-            return;
+            FindingCallNumbersPage findingCallNumbersPage = new FindingCallNumbersPage();
+            NavigationService.Navigate(findingCallNumbersPage);
         }
     }
 

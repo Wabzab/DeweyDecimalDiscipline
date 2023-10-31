@@ -1,0 +1,4938 @@
+{
+  "Number": "",
+  "Description": "Root",
+  "Children": [
+    {
+      "Number": "000",
+      "Description": "Computer science, information, and general works",
+      "Children": [
+        {
+          "Number": "000",
+          "Description": "Computer science, knowledge, and systems",
+          "Children": [
+            {
+              "Number": "000",
+              "Description": "Computer science, information, and general works",
+              "Children": []
+            },
+            {
+              "Number": "001",
+              "Description": "Knowledge",
+              "Children": []
+            },
+            {
+              "Number": "002",
+              "Description": "The book (writing, libraries, and book-related topics)",
+              "Children": []
+            },
+            {
+              "Number": "003",
+              "Description": "Systems",
+              "Children": []
+            },
+            {
+              "Number": "004",
+              "Description": "Data processing and computer science",
+              "Children": []
+            },
+            {
+              "Number": "005",
+              "Description": "Computer programming, programs, and data",
+              "Children": []
+            },
+            {
+              "Number": "006",
+              "Description": "Special computer methods",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "010",
+          "Description": "Bibliographies",
+          "Children": [
+            {
+              "Number": "011",
+              "Description": "Bibliographies",
+              "Children": []
+            },
+            {
+              "Number": "012",
+              "Description": "Bibliographies of individuals",
+              "Children": []
+            },
+            {
+              "Number": "014",
+              "Description": "Bibliographies of anonymous and pseudonymous works",
+              "Children": []
+            },
+            {
+              "Number": "015",
+              "Description": "Bibliographies of works from specific places",
+              "Children": []
+            },
+            {
+              "Number": "016",
+              "Description": "Bibliographies of works on specific subjects",
+              "Children": []
+            },
+            {
+              "Number": "017",
+              "Description": "General subject catalogues",
+              "Children": []
+            },
+            {
+              "Number": "018",
+              "Description": "Catalogues arranged by author, date, etc",
+              "Children": []
+            },
+            {
+              "Number": "019",
+              "Description": "Dictionary catalogues",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "020",
+          "Description": "Library and information sciences",
+          "Children": [
+            {
+              "Number": "020",
+              "Description": "Library and information sciences",
+              "Children": []
+            },
+            {
+              "Number": "021",
+              "Description": "Library relationships (with archives, information centres, etc.)",
+              "Children": []
+            },
+            {
+              "Number": "022",
+              "Description": "Administration of physical plant",
+              "Children": []
+            },
+            {
+              "Number": "023",
+              "Description": "Personnel management",
+              "Children": []
+            },
+            {
+              "Number": "025",
+              "Description": "Library operations",
+              "Children": []
+            },
+            {
+              "Number": "026",
+              "Description": "Libraries for specific subjects",
+              "Children": []
+            },
+            {
+              "Number": "027",
+              "Description": "General libraries",
+              "Children": []
+            },
+            {
+              "Number": "028",
+              "Description": "Reading and use of other information media",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "030",
+          "Description": "Encyclopaedias and books of facts",
+          "Children": [
+            {
+              "Number": "030",
+              "Description": "General encyclopaedic works",
+              "Children": []
+            },
+            {
+              "Number": "031",
+              "Description": "Encyclopaedias in American English",
+              "Children": []
+            },
+            {
+              "Number": "032",
+              "Description": "Encyclopaedias in English",
+              "Children": []
+            },
+            {
+              "Number": "033",
+              "Description": "Encyclopaedias in other Germanic languages",
+              "Children": []
+            },
+            {
+              "Number": "034",
+              "Description": "Encyclopaedias in French, Occitan, and Catalan",
+              "Children": []
+            },
+            {
+              "Number": "035",
+              "Description": "Encyclopaedias in Italian, Romanian, and related languages",
+              "Children": []
+            },
+            {
+              "Number": "036",
+              "Description": "Encyclopaedias in Spanish and Portuguese",
+              "Children": []
+            },
+            {
+              "Number": "037",
+              "Description": "Encyclopaedias in Slavic languages",
+              "Children": []
+            },
+            {
+              "Number": "038",
+              "Description": "Encyclopaedias in Scandinavian languages",
+              "Children": []
+            },
+            {
+              "Number": "039",
+              "Description": "Encyclopaedias in other languages",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "050",
+          "Description": "Magazines, journals, and serials",
+          "Children": [
+            {
+              "Number": "050",
+              "Description": "General serial publications",
+              "Children": []
+            },
+            {
+              "Number": "051",
+              "Description": "Serials in American English",
+              "Children": []
+            },
+            {
+              "Number": "052",
+              "Description": "Serials in English",
+              "Children": []
+            },
+            {
+              "Number": "053",
+              "Description": "Serials in other Germanic languages",
+              "Children": []
+            },
+            {
+              "Number": "054",
+              "Description": "Serials in French, Occitan, and Catalan",
+              "Children": []
+            },
+            {
+              "Number": "055",
+              "Description": "Serials in Italian, Romanian, and related languages",
+              "Children": []
+            },
+            {
+              "Number": "056",
+              "Description": "Serials in Spanish and Portuguese",
+              "Children": []
+            },
+            {
+              "Number": "057",
+              "Description": "Serials in Slavic languages",
+              "Children": []
+            },
+            {
+              "Number": "058",
+              "Description": "Serials in Scandinavian languages",
+              "Children": []
+            },
+            {
+              "Number": "059",
+              "Description": "Serials in other languages",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "060",
+          "Description": "Associations, organizations, and museums",
+          "Children": [
+            {
+              "Number": "060",
+              "Description": "General organizations and museum science",
+              "Children": []
+            },
+            {
+              "Number": "061",
+              "Description": "Organizations in North America",
+              "Children": []
+            },
+            {
+              "Number": "062",
+              "Description": "Organizations in British Isles; in England",
+              "Children": []
+            },
+            {
+              "Number": "063",
+              "Description": "Organizations in central Europe; in Germany",
+              "Children": []
+            },
+            {
+              "Number": "064",
+              "Description": "Organizations in France and Monaco",
+              "Children": []
+            },
+            {
+              "Number": "065",
+              "Description": "Organizations in Italy and adjacent islands",
+              "Children": []
+            },
+            {
+              "Number": "066",
+              "Description": "Organizations in Iberian Peninsula and adjacent islands",
+              "Children": []
+            },
+            {
+              "Number": "067",
+              "Description": "Organizations in eastern Europe; in Russia",
+              "Children": []
+            },
+            {
+              "Number": "068",
+              "Description": "Organizations in other geographic areas",
+              "Children": []
+            },
+            {
+              "Number": "069",
+              "Description": "Museum science",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "070",
+          "Description": "News media, journalism, and publishing",
+          "Children": [
+            {
+              "Number": "070",
+              "Description": "News media, journalism, and publishing",
+              "Children": []
+            },
+            {
+              "Number": "071",
+              "Description": "Newspapers in North America",
+              "Children": []
+            },
+            {
+              "Number": "072",
+              "Description": "Newspapers in British Isles; in England",
+              "Children": []
+            },
+            {
+              "Number": "073",
+              "Description": "Newspapers in central Europe; in Germany",
+              "Children": []
+            },
+            {
+              "Number": "074",
+              "Description": "Newspapers in France and Monaco",
+              "Children": []
+            },
+            {
+              "Number": "075",
+              "Description": "Newspapers in Italy and adjacent islands",
+              "Children": []
+            },
+            {
+              "Number": "076",
+              "Description": "Newspapers in Iberian Peninsula and adjacent islands",
+              "Children": []
+            },
+            {
+              "Number": "077",
+              "Description": "Newspapers in eastern Europe; in Russia",
+              "Children": []
+            },
+            {
+              "Number": "078",
+              "Description": "Newspapers in Scandinavia",
+              "Children": []
+            },
+            {
+              "Number": "079",
+              "Description": "Newspapers in other geographic areas",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "080",
+          "Description": "Quotations",
+          "Children": [
+            {
+              "Number": "080",
+              "Description": "General collections",
+              "Children": []
+            },
+            {
+              "Number": "081",
+              "Description": "Collections in American English",
+              "Children": []
+            },
+            {
+              "Number": "082",
+              "Description": "Collections in English",
+              "Children": []
+            },
+            {
+              "Number": "083",
+              "Description": "Collections in other Germanic languages",
+              "Children": []
+            },
+            {
+              "Number": "084",
+              "Description": "Collections in French, Occitan, Catalan",
+              "Children": []
+            },
+            {
+              "Number": "085",
+              "Description": "Collections in Italian, Romanian, and related languages",
+              "Children": []
+            },
+            {
+              "Number": "086",
+              "Description": "Collections in Spanish and Portuguese",
+              "Children": []
+            },
+            {
+              "Number": "087",
+              "Description": "Collections in Slavic languages",
+              "Children": []
+            },
+            {
+              "Number": "088",
+              "Description": "Collections in Scandinavian languages",
+              "Children": []
+            },
+            {
+              "Number": "089",
+              "Description": "Collections in other languages",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "090",
+          "Description": "Manuscripts and rare books",
+          "Children": [
+            {
+              "Number": "090",
+              "Description": "Manuscripts and rare books",
+              "Children": []
+            },
+            {
+              "Number": "091",
+              "Description": "Manuscripts",
+              "Children": []
+            },
+            {
+              "Number": "092",
+              "Description": "Block books",
+              "Children": []
+            },
+            {
+              "Number": "093",
+              "Description": "Incunabula",
+              "Children": []
+            },
+            {
+              "Number": "094",
+              "Description": "Printed books",
+              "Children": []
+            },
+            {
+              "Number": "095",
+              "Description": "Books notable for bindings",
+              "Children": []
+            },
+            {
+              "Number": "096",
+              "Description": "Books notable for illustrations",
+              "Children": []
+            },
+            {
+              "Number": "097",
+              "Description": "Books notable for ownership or origin",
+              "Children": []
+            },
+            {
+              "Number": "098",
+              "Description": "Prohibited works, forgeries, and hoaxes",
+              "Children": []
+            },
+            {
+              "Number": "099",
+              "Description": "Books notable for format",
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Number": "100",
+      "Description": "Philosophy and psychology",
+      "Children": [
+        {
+          "Number": "100",
+          "Description": "Philosophy",
+          "Children": [
+            {
+              "Number": "100",
+              "Description": "Philosophy and psychology",
+              "Children": []
+            },
+            {
+              "Number": "101",
+              "Description": "Theory of philosophy",
+              "Children": []
+            },
+            {
+              "Number": "102",
+              "Description": "Miscellany",
+              "Children": []
+            },
+            {
+              "Number": "107",
+              "Description": "Education, research, related topics of philosophy",
+              "Children": []
+            },
+            {
+              "Number": "108",
+              "Description": "Groups of people",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "110",
+          "Description": "Metaphysics",
+          "Children": [
+            {
+              "Number": "110",
+              "Description": "Metaphysics",
+              "Children": []
+            },
+            {
+              "Number": "111",
+              "Description": "Ontology ",
+              "Children": []
+            },
+            {
+              "Number": "112",
+              "Description": "Cosmology (Philosophy of nature)",
+              "Children": []
+            },
+            {
+              "Number": "114",
+              "Description": "Space",
+              "Children": []
+            },
+            {
+              "Number": "115",
+              "Description": "Time",
+              "Children": []
+            },
+            {
+              "Number": "116",
+              "Description": "Change",
+              "Children": []
+            },
+            {
+              "Number": "117",
+              "Description": "Structure",
+              "Children": []
+            },
+            {
+              "Number": "118",
+              "Description": "Force and energy",
+              "Children": []
+            },
+            {
+              "Number": "119",
+              "Description": "Number and quantity",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "120",
+          "Description": "Epistemology",
+          "Children": [
+            {
+              "Number": "120",
+              "Description": "Epistemology, causation, and humankind",
+              "Children": []
+            },
+            {
+              "Number": "121",
+              "Description": "Epistemology (Theory of knowledge)",
+              "Children": []
+            },
+            {
+              "Number": "122",
+              "Description": "Causation",
+              "Children": []
+            },
+            {
+              "Number": "123",
+              "Description": "Determinism and indeterminism",
+              "Children": []
+            },
+            {
+              "Number": "124",
+              "Description": "Teleology",
+              "Children": []
+            },
+            {
+              "Number": "126",
+              "Description": "The self",
+              "Children": []
+            },
+            {
+              "Number": "127",
+              "Description": "The unconscious and the subconscious",
+              "Children": []
+            },
+            {
+              "Number": "128",
+              "Description": "Humankind",
+              "Children": []
+            },
+            {
+              "Number": "129",
+              "Description": "Origin and destiny of individual souls",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "130",
+          "Description": "Parapsychology and occultism",
+          "Children": [
+            {
+              "Number": "130",
+              "Description": "Parapsychology and occultism",
+              "Children": []
+            },
+            {
+              "Number": "131",
+              "Description": "Parapsychological and occult methods for achieving well-being, happiness, success",
+              "Children": []
+            },
+            {
+              "Number": "133",
+              "Description": "Specific topics in parapsychology and occultism",
+              "Children": []
+            },
+            {
+              "Number": "135",
+              "Description": "Dreams and mysteries",
+              "Children": []
+            },
+            {
+              "Number": "137",
+              "Description": "Divinatory graphology",
+              "Children": []
+            },
+            {
+              "Number": "138",
+              "Description": "Physiognomy",
+              "Children": []
+            },
+            {
+              "Number": "139",
+              "Description": "Phrenology",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "140",
+          "Description": "Philosophical schools of thought",
+          "Children": [
+            {
+              "Number": "140",
+              "Description": "Specific philosophical schools and viewpoints",
+              "Children": []
+            },
+            {
+              "Number": "141",
+              "Description": "Idealism and related systems and doctrines",
+              "Children": []
+            },
+            {
+              "Number": "142",
+              "Description": "Critical philosophy",
+              "Children": []
+            },
+            {
+              "Number": "143",
+              "Description": "Bergsonism and intuitionism",
+              "Children": []
+            },
+            {
+              "Number": "144",
+              "Description": "Humanism and related systems and doctrines",
+              "Children": []
+            },
+            {
+              "Number": "145",
+              "Description": "Sensationalism",
+              "Children": []
+            },
+            {
+              "Number": "146",
+              "Description": "Naturalism and related systems and doctrines",
+              "Children": []
+            },
+            {
+              "Number": "147",
+              "Description": "Pantheism and related systems and doctrines",
+              "Children": []
+            },
+            {
+              "Number": "148",
+              "Description": "Dogmatism, eclecticism, liberalism, syncretism, and traditionalism",
+              "Children": []
+            },
+            {
+              "Number": "149",
+              "Description": "Other philosophical systems and doctrines",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "150",
+          "Description": "Psychology",
+          "Children": [
+            {
+              "Number": "150",
+              "Description": "Psychology",
+              "Children": []
+            },
+            {
+              "Number": "152",
+              "Description": "Sensory perception, movement, emotions, and physiological drives",
+              "Children": []
+            },
+            {
+              "Number": "153",
+              "Description": "Conscious mental processes and intelligence",
+              "Children": []
+            },
+            {
+              "Number": "154",
+              "Description": "Subconscious and altered states and processes",
+              "Children": []
+            },
+            {
+              "Number": "155",
+              "Description": "Differential and developmental psychology",
+              "Children": []
+            },
+            {
+              "Number": "156",
+              "Description": "Comparative psychology",
+              "Children": []
+            },
+            {
+              "Number": "158",
+              "Description": "Applied psychology",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "160",
+          "Description": "Philosophical logic",
+          "Children": [
+            {
+              "Number": "160",
+              "Description": "Philosophical logic",
+              "Children": []
+            },
+            {
+              "Number": "161",
+              "Description": "Induction",
+              "Children": []
+            },
+            {
+              "Number": "162",
+              "Description": "Deduction",
+              "Children": []
+            },
+            {
+              "Number": "165",
+              "Description": "Fallacies and sources of error",
+              "Children": []
+            },
+            {
+              "Number": "166",
+              "Description": "Syllogisms",
+              "Children": []
+            },
+            {
+              "Number": "167",
+              "Description": "Hypotheses",
+              "Children": []
+            },
+            {
+              "Number": "168",
+              "Description": "Argument and persuasion",
+              "Children": []
+            },
+            {
+              "Number": "169",
+              "Description": "Analogy",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "170",
+          "Description": "Ethics",
+          "Children": [
+            {
+              "Number": "170",
+              "Description": "Ethics",
+              "Children": []
+            },
+            {
+              "Number": "171",
+              "Description": "Ethical systems",
+              "Children": []
+            },
+            {
+              "Number": "172",
+              "Description": "Political ethics",
+              "Children": []
+            },
+            {
+              "Number": "173",
+              "Description": "Ethics of family relationships",
+              "Children": []
+            },
+            {
+              "Number": "174",
+              "Description": "Occupational ethics",
+              "Children": []
+            },
+            {
+              "Number": "175",
+              "Description": "Ethics of recreation, leisure, public performances, communication",
+              "Children": []
+            },
+            {
+              "Number": "176",
+              "Description": "Ethics of sex and reproduction",
+              "Children": []
+            },
+            {
+              "Number": "177",
+              "Description": "Ethics of social relations",
+              "Children": []
+            },
+            {
+              "Number": "178",
+              "Description": "Ethics of consumption",
+              "Children": []
+            },
+            {
+              "Number": "179",
+              "Description": "Other ethical norms",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "180",
+          "Description": "Ancient, medieval, and Eastern philosophy",
+          "Children": [
+            {
+              "Number": "180",
+              "Description": "Ancient, medieval, and Eastern philosophy",
+              "Children": []
+            },
+            {
+              "Number": "181",
+              "Description": "Eastern philosophies",
+              "Children": []
+            },
+            {
+              "Number": "182",
+              "Description": "Pre-Socratic Greek philosophies",
+              "Children": []
+            },
+            {
+              "Number": "183",
+              "Description": "Sophistic, Socratic, related Greek philosophies",
+              "Children": []
+            },
+            {
+              "Number": "184",
+              "Description": "Platonic philosophies",
+              "Children": []
+            },
+            {
+              "Number": "185",
+              "Description": "Aristotelian philosophy",
+              "Children": []
+            },
+            {
+              "Number": "186",
+              "Description": "Sceptic and Neoplatonic philosophies",
+              "Children": []
+            },
+            {
+              "Number": "187",
+              "Description": "Epicurean philosophy",
+              "Children": []
+            },
+            {
+              "Number": "188",
+              "Description": "Stoic philosophy",
+              "Children": []
+            },
+            {
+              "Number": "189",
+              "Description": "Medieval Western philosophy",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "190",
+          "Description": "Modern Western philosophy (19th-century, 20th-century)",
+          "Children": [
+            {
+              "Number": "190",
+              "Description": "Modern Western and other non-eastern philosophy",
+              "Children": []
+            },
+            {
+              "Number": "191",
+              "Description": "Philosophy of the United States and Canada",
+              "Children": []
+            },
+            {
+              "Number": "192",
+              "Description": "Philosophy of the British Isles",
+              "Children": []
+            },
+            {
+              "Number": "193",
+              "Description": "Philosophy of Germany and Austria",
+              "Children": []
+            },
+            {
+              "Number": "194",
+              "Description": "Philosophy of France",
+              "Children": []
+            },
+            {
+              "Number": "195",
+              "Description": "Philosophy of Italy",
+              "Children": []
+            },
+            {
+              "Number": "196",
+              "Description": "Philosophy of Spain and Portugal",
+              "Children": []
+            },
+            {
+              "Number": "197",
+              "Description": "Philosophy of Russia",
+              "Children": []
+            },
+            {
+              "Number": "198",
+              "Description": "Philosophy of Scandinavia and Finland",
+              "Children": []
+            },
+            {
+              "Number": "199",
+              "Description": "Philosophy in other geographic areas",
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Number": "200",
+      "Description": "Religion",
+      "Children": [
+        {
+          "Number": "200",
+          "Description": "Religion",
+          "Children": [
+            {
+              "Number": "200",
+              "Description": "Religion",
+              "Children": []
+            },
+            {
+              "Number": "201",
+              "Description": "Religious mythology, general classes of religion, interreligious relations and attitudes, social theology",
+              "Children": []
+            },
+            {
+              "Number": "202",
+              "Description": "Doctrines",
+              "Children": []
+            },
+            {
+              "Number": "203",
+              "Description": "Public worship and other practices",
+              "Children": []
+            },
+            {
+              "Number": "204",
+              "Description": "Religious experience, life, practice",
+              "Children": []
+            },
+            {
+              "Number": "205",
+              "Description": "Religious ethics",
+              "Children": []
+            },
+            {
+              "Number": "207",
+              "Description": "Missions and religious education",
+              "Children": []
+            },
+            {
+              "Number": "209",
+              "Description": "Sects and reform movements",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "210",
+          "Description": "Philosophy and theory of religion",
+          "Children": [
+            {
+              "Number": "210",
+              "Description": "Philosophy and theory of religion",
+              "Children": []
+            },
+            {
+              "Number": "211",
+              "Description": "Concepts of God",
+              "Children": []
+            },
+            {
+              "Number": "212",
+              "Description": "Existence, ways of knowing God, attributes of God",
+              "Children": []
+            },
+            {
+              "Number": "213",
+              "Description": "Creation",
+              "Children": []
+            },
+            {
+              "Number": "214",
+              "Description": "Theodicy",
+              "Children": []
+            },
+            {
+              "Number": "215",
+              "Description": "Science and religion",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "220",
+          "Description": "The Bible",
+          "Children": [
+            {
+              "Number": "220",
+              "Description": "The Bible",
+              "Children": []
+            },
+            {
+              "Number": "221",
+              "Description": "Old Testament (Tanakh)",
+              "Children": []
+            },
+            {
+              "Number": "222",
+              "Description": "Historical books of Old Testament",
+              "Children": []
+            },
+            {
+              "Number": "223",
+              "Description": "Poetic books of Old Testament",
+              "Children": []
+            },
+            {
+              "Number": "224",
+              "Description": "Prophetic books of Old Testament",
+              "Children": []
+            },
+            {
+              "Number": "225",
+              "Description": "New Testament",
+              "Children": []
+            },
+            {
+              "Number": "226",
+              "Description": "Gospels and Acts",
+              "Children": []
+            },
+            {
+              "Number": "227",
+              "Description": "Epistles",
+              "Children": []
+            },
+            {
+              "Number": "228",
+              "Description": "Revelation (Apocalypse)",
+              "Children": []
+            },
+            {
+              "Number": "229",
+              "Description": "Apocrypha, pseudepigrapha, and inter-testament works",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "230",
+          "Description": "Christianity",
+          "Children": [
+            {
+              "Number": "230",
+              "Description": "Christianity",
+              "Children": []
+            },
+            {
+              "Number": "231",
+              "Description": "God",
+              "Children": []
+            },
+            {
+              "Number": "232",
+              "Description": "Jesus Christ and his family",
+              "Children": []
+            },
+            {
+              "Number": "234",
+              "Description": "Salvation and grace",
+              "Children": []
+            },
+            {
+              "Number": "235",
+              "Description": "Spiritual beings",
+              "Children": []
+            },
+            {
+              "Number": "237",
+              "Description": "Eschatology",
+              "Children": []
+            },
+            {
+              "Number": "238",
+              "Description": "Creeds, confessions of faith, covenants, and catechisms",
+              "Children": []
+            },
+            {
+              "Number": "239",
+              "Description": "Apologetics and polemics",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "240",
+          "Description": "Christian practice and observance",
+          "Children": [
+            {
+              "Number": "240",
+              "Description": "Christian moral and devotional theology",
+              "Children": []
+            },
+            {
+              "Number": "241",
+              "Description": "Christian ethics",
+              "Children": []
+            },
+            {
+              "Number": "242",
+              "Description": "Devotional literature",
+              "Children": []
+            },
+            {
+              "Number": "243",
+              "Description": "Evangelistic writings for individuals and families",
+              "Children": []
+            },
+            {
+              "Number": "246",
+              "Description": "Use of art in Christianity",
+              "Children": []
+            },
+            {
+              "Number": "247",
+              "Description": "Church furnishings and related articles",
+              "Children": []
+            },
+            {
+              "Number": "248",
+              "Description": "Christian experience, practice, life",
+              "Children": []
+            },
+            {
+              "Number": "249",
+              "Description": "Christian observances in family life",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "250",
+          "Description": "Christian orders and local church",
+          "Children": [
+            {
+              "Number": "250",
+              "Description": "Local Christian church and Christian religious orders",
+              "Children": []
+            },
+            {
+              "Number": "251",
+              "Description": "Preaching (Homiletics)",
+              "Children": []
+            },
+            {
+              "Number": "252",
+              "Description": "Texts of sermons",
+              "Children": []
+            },
+            {
+              "Number": "253",
+              "Description": "Pastoral office and work (Pastoral theology)",
+              "Children": []
+            },
+            {
+              "Number": "254",
+              "Description": "Parish administration",
+              "Children": []
+            },
+            {
+              "Number": "255",
+              "Description": "Religious congregations and orders",
+              "Children": []
+            },
+            {
+              "Number": "259",
+              "Description": "Pastoral care of families of specific groups of people",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "260",
+          "Description": "Social and ecclesiastical theology",
+          "Children": [
+            {
+              "Number": "260",
+              "Description": "Christian social and ecclesiastical theology",
+              "Children": []
+            },
+            {
+              "Number": "261",
+              "Description": "Social theology and interreligious relations and attitudes",
+              "Children": []
+            },
+            {
+              "Number": "262",
+              "Description": "Ecclesiology",
+              "Children": []
+            },
+            {
+              "Number": "263",
+              "Description": "Days, times, places of religious observance",
+              "Children": []
+            },
+            {
+              "Number": "264",
+              "Description": "Public worship",
+              "Children": []
+            },
+            {
+              "Number": "265",
+              "Description": "Sacraments, other rites, and acts",
+              "Children": []
+            },
+            {
+              "Number": "266",
+              "Description": "Missions",
+              "Children": []
+            },
+            {
+              "Number": "267",
+              "Description": "Associations for religious work",
+              "Children": []
+            },
+            {
+              "Number": "268",
+              "Description": "Religious education",
+              "Children": []
+            },
+            {
+              "Number": "269",
+              "Description": "Spiritual renewal",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "270",
+          "Description": "History of Christianity",
+          "Children": [
+            {
+              "Number": "270",
+              "Description": "History, geographic treatment, biography of Christianity",
+              "Children": []
+            },
+            {
+              "Number": "271",
+              "Description": "Religious congregations and orders in church history",
+              "Children": []
+            },
+            {
+              "Number": "272",
+              "Description": "Persecutions in church history",
+              "Children": []
+            },
+            {
+              "Number": "273",
+              "Description": "Doctrinal controversies and heresies in general church history",
+              "Children": []
+            },
+            {
+              "Number": "274",
+              "Description": "Christianity in Europe",
+              "Children": []
+            },
+            {
+              "Number": "275",
+              "Description": "Christianity in Asia",
+              "Children": []
+            },
+            {
+              "Number": "276",
+              "Description": "Christianity in Africa",
+              "Children": []
+            },
+            {
+              "Number": "277",
+              "Description": "Christianity in North America",
+              "Children": []
+            },
+            {
+              "Number": "278",
+              "Description": "Christianity in South America",
+              "Children": []
+            },
+            {
+              "Number": "279",
+              "Description": "History of Christianity in other areas",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "280",
+          "Description": "Christian denominations",
+          "Children": [
+            {
+              "Number": "280",
+              "Description": "Denominations and sects of Christian church",
+              "Children": []
+            },
+            {
+              "Number": "281",
+              "Description": "Early church and Eastern churches",
+              "Children": []
+            },
+            {
+              "Number": "282",
+              "Description": "Roman Catholic Church",
+              "Children": []
+            },
+            {
+              "Number": "283",
+              "Description": "Anglican churches",
+              "Children": []
+            },
+            {
+              "Number": "284",
+              "Description": "Protestant denominations of Continental origin and related body",
+              "Children": []
+            },
+            {
+              "Number": "285",
+              "Description": "Presbyterian churches, Reformed churches centred in America, Congregational churches",
+              "Children": []
+            },
+            {
+              "Number": "286",
+              "Description": "Baptist, Restoration Movement, Adventist churches",
+              "Children": []
+            },
+            {
+              "Number": "287",
+              "Description": "Methodist churches; churches related to Methodism",
+              "Children": []
+            },
+            {
+              "Number": "289",
+              "Description": "Other denominations and sects",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "290",
+          "Description": "Other religions",
+          "Children": [
+            {
+              "Number": "290",
+              "Description": "Other religions",
+              "Children": []
+            },
+            {
+              "Number": "292",
+              "Description": "Classical religions (Greek and Roman religion)",
+              "Children": []
+            },
+            {
+              "Number": "293",
+              "Description": "Germanic religion",
+              "Children": []
+            },
+            {
+              "Number": "294",
+              "Description": "Religions of Indic origin",
+              "Children": []
+            },
+            {
+              "Number": "295",
+              "Description": "Zoroastrianism (Mazdeism, Parseeism)",
+              "Children": []
+            },
+            {
+              "Number": "296",
+              "Description": "Judaism",
+              "Children": []
+            },
+            {
+              "Number": "297",
+              "Description": "Islam, Bábism, and Baháʼí Faith ",
+              "Children": []
+            },
+            {
+              "Number": "299",
+              "Description": "Religions not provided for elsewhere",
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Number": "300",
+      "Description": "Social sciences",
+      "Children": [
+        {
+          "Number": "300",
+          "Description": "Social sciences, sociology, and anthropology",
+          "Children": [
+            {
+              "Number": "300",
+              "Description": "Social sciences",
+              "Children": []
+            },
+            {
+              "Number": "301",
+              "Description": "Sociology and anthropology",
+              "Children": []
+            },
+            {
+              "Number": "302",
+              "Description": "Social interaction",
+              "Children": []
+            },
+            {
+              "Number": "303",
+              "Description": "Social processes",
+              "Children": []
+            },
+            {
+              "Number": "304",
+              "Description": "Factors affecting social behaviour",
+              "Children": []
+            },
+            {
+              "Number": "305",
+              "Description": "Groups of people",
+              "Children": []
+            },
+            {
+              "Number": "306",
+              "Description": "Culture and institutions",
+              "Children": []
+            },
+            {
+              "Number": "307",
+              "Description": "Communities",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "310",
+          "Description": "Statistics",
+          "Children": [
+            {
+              "Number": "310",
+              "Description": "Collections of general statistics",
+              "Children": []
+            },
+            {
+              "Number": "314",
+              "Description": "General statistics of Europe",
+              "Children": []
+            },
+            {
+              "Number": "315",
+              "Description": "General statistics of Asia",
+              "Children": []
+            },
+            {
+              "Number": "316",
+              "Description": "General statistics of Africa",
+              "Children": []
+            },
+            {
+              "Number": "317",
+              "Description": "General statistics of North America",
+              "Children": []
+            },
+            {
+              "Number": "318",
+              "Description": "General statistics of South America",
+              "Children": []
+            },
+            {
+              "Number": "319",
+              "Description": "General statistics of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "320",
+          "Description": "Political science",
+          "Children": [
+            {
+              "Number": "320",
+              "Description": "Political science (Politics and government)",
+              "Children": []
+            },
+            {
+              "Number": "321",
+              "Description": "Systems of governments and states",
+              "Children": []
+            },
+            {
+              "Number": "322",
+              "Description": "Relation of state to organized groups and their members",
+              "Children": []
+            },
+            {
+              "Number": "323",
+              "Description": "Civil and political rights",
+              "Children": []
+            },
+            {
+              "Number": "324",
+              "Description": "The political process",
+              "Children": []
+            },
+            {
+              "Number": "325",
+              "Description": "International migration and colonization",
+              "Children": []
+            },
+            {
+              "Number": "326",
+              "Description": "Slavery and emancipation",
+              "Children": []
+            },
+            {
+              "Number": "327",
+              "Description": "International relations",
+              "Children": []
+            },
+            {
+              "Number": "328",
+              "Description": "The legislative process",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "330",
+          "Description": "Economics",
+          "Children": [
+            {
+              "Number": "330",
+              "Description": "Economics",
+              "Children": []
+            },
+            {
+              "Number": "331",
+              "Description": "Labor economics",
+              "Children": []
+            },
+            {
+              "Number": "332",
+              "Description": "Financial economics",
+              "Children": []
+            },
+            {
+              "Number": "333",
+              "Description": "Economics of land and energy",
+              "Children": []
+            },
+            {
+              "Number": "334",
+              "Description": "Cooperatives",
+              "Children": []
+            },
+            {
+              "Number": "335",
+              "Description": "Socialism and related systems",
+              "Children": []
+            },
+            {
+              "Number": "336",
+              "Description": "Public finance",
+              "Children": []
+            },
+            {
+              "Number": "337",
+              "Description": "International economics",
+              "Children": []
+            },
+            {
+              "Number": "338",
+              "Description": "Production",
+              "Children": []
+            },
+            {
+              "Number": "339",
+              "Description": "Macroeconomics and related topics",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "340",
+          "Description": "Law",
+          "Children": [
+            {
+              "Number": "340",
+              "Description": "Law",
+              "Children": []
+            },
+            {
+              "Number": "341",
+              "Description": "Law of nations",
+              "Children": []
+            },
+            {
+              "Number": "342",
+              "Description": "Constitutional and administrative law",
+              "Children": []
+            },
+            {
+              "Number": "343",
+              "Description": "Military, defence, public property, public finance, tax, commerce (trade), industrial law",
+              "Children": []
+            },
+            {
+              "Number": "344",
+              "Description": "Labor, social service, education, cultural law",
+              "Children": []
+            },
+            {
+              "Number": "345",
+              "Description": "Criminal law",
+              "Children": []
+            },
+            {
+              "Number": "346",
+              "Description": "Private law",
+              "Children": []
+            },
+            {
+              "Number": "347",
+              "Description": "Procedure and courts",
+              "Children": []
+            },
+            {
+              "Number": "348",
+              "Description": "Laws, regulations, cases",
+              "Children": []
+            },
+            {
+              "Number": "349",
+              "Description": "Law of specific jurisdictions, areas, socioeconomic regions, regional intergovernmental organizations",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "350",
+          "Description": "Public administration and military science",
+          "Children": [
+            {
+              "Number": "350",
+              "Description": "Public administration and military science",
+              "Children": []
+            },
+            {
+              "Number": "351",
+              "Description": "Public administration",
+              "Children": []
+            },
+            {
+              "Number": "352",
+              "Description": "General considerations of public administration",
+              "Children": []
+            },
+            {
+              "Number": "353",
+              "Description": "Specific fields of public administration",
+              "Children": []
+            },
+            {
+              "Number": "354",
+              "Description": "Public administration of economy and environment",
+              "Children": []
+            },
+            {
+              "Number": "355",
+              "Description": "Military science",
+              "Children": []
+            },
+            {
+              "Number": "356",
+              "Description": "Foot forces and warfare",
+              "Children": []
+            },
+            {
+              "Number": "357",
+              "Description": "Mounted forces and warfare",
+              "Children": []
+            },
+            {
+              "Number": "358",
+              "Description": "Air and other specialized forces and warfare; engineering and related services",
+              "Children": []
+            },
+            {
+              "Number": "359",
+              "Description": "Sea forces and warfare",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "360",
+          "Description": "Social problems and social services",
+          "Children": [
+            {
+              "Number": "361",
+              "Description": "Social problems and services",
+              "Children": []
+            },
+            {
+              "Number": "362",
+              "Description": "Social problems of and services to groups of people",
+              "Children": []
+            },
+            {
+              "Number": "363",
+              "Description": "Other social problems and services",
+              "Children": []
+            },
+            {
+              "Number": "364",
+              "Description": "Criminology",
+              "Children": []
+            },
+            {
+              "Number": "365",
+              "Description": "Penal and related institutions",
+              "Children": []
+            },
+            {
+              "Number": "366",
+              "Description": "Secret associations and societies",
+              "Children": []
+            },
+            {
+              "Number": "367",
+              "Description": "General clubs",
+              "Children": []
+            },
+            {
+              "Number": "368",
+              "Description": "Insurance",
+              "Children": []
+            },
+            {
+              "Number": "369",
+              "Description": "Associations",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "370",
+          "Description": "Education",
+          "Children": [
+            {
+              "Number": "370",
+              "Description": "Education",
+              "Children": []
+            },
+            {
+              "Number": "371",
+              "Description": "Schools and their activities, special education",
+              "Children": []
+            },
+            {
+              "Number": "372",
+              "Description": "Primary education (elementary education)",
+              "Children": []
+            },
+            {
+              "Number": "373",
+              "Description": "Secondary education",
+              "Children": []
+            },
+            {
+              "Number": "374",
+              "Description": "Adult education",
+              "Children": []
+            },
+            {
+              "Number": "375",
+              "Description": "Curriculum",
+              "Children": []
+            },
+            {
+              "Number": "378",
+              "Description": "Higher education (Tertiary education)",
+              "Children": []
+            },
+            {
+              "Number": "379",
+              "Description": "Public policy issues in education",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "380",
+          "Description": "Commerce, communications, and transportation",
+          "Children": [
+            {
+              "Number": "380",
+              "Description": "Commerce, communications, and transportation",
+              "Children": []
+            },
+            {
+              "Number": "381",
+              "Description": "Commerce (Trade)",
+              "Children": []
+            },
+            {
+              "Number": "382",
+              "Description": "International commerce (Foreign trade)",
+              "Children": []
+            },
+            {
+              "Number": "383",
+              "Description": "Postal communication",
+              "Children": []
+            },
+            {
+              "Number": "384",
+              "Description": "Communications",
+              "Children": []
+            },
+            {
+              "Number": "385",
+              "Description": "Railroad transportation",
+              "Children": []
+            },
+            {
+              "Number": "386",
+              "Description": "Inland waterway and ferry transportation",
+              "Children": []
+            },
+            {
+              "Number": "387",
+              "Description": "Water, air, space transportation",
+              "Children": []
+            },
+            {
+              "Number": "388",
+              "Description": "Transportation",
+              "Children": []
+            },
+            {
+              "Number": "389",
+              "Description": "Metrology and standardization",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "390",
+          "Description": "Customs, etiquette, and folklore",
+          "Children": [
+            {
+              "Number": "390",
+              "Description": "Customs, etiquette, and folklore",
+              "Children": []
+            },
+            {
+              "Number": "391",
+              "Description": "Costume and personal appearance",
+              "Children": []
+            },
+            {
+              "Number": "392",
+              "Description": "Customs of life cycle and domestic life",
+              "Children": []
+            },
+            {
+              "Number": "393",
+              "Description": "Death customs",
+              "Children": []
+            },
+            {
+              "Number": "394",
+              "Description": "General customs",
+              "Children": []
+            },
+            {
+              "Number": "395",
+              "Description": "Etiquette (Manners)",
+              "Children": []
+            },
+            {
+              "Number": "398",
+              "Description": "Folklore",
+              "Children": []
+            },
+            {
+              "Number": "399",
+              "Description": "Customs of war and diplomacy",
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Number": "400",
+      "Description": "Language",
+      "Children": [
+        {
+          "Number": "400",
+          "Description": "Language",
+          "Children": [
+            {
+              "Number": "400",
+              "Description": "Language",
+              "Children": []
+            },
+            {
+              "Number": "401",
+              "Description": "Philosophy and theory, international languages",
+              "Children": []
+            },
+            {
+              "Number": "403",
+              "Description": "Dictionaries, encyclopaedias, concordances",
+              "Children": []
+            },
+            {
+              "Number": "404",
+              "Description": "Special topics of language",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "410",
+          "Description": "Linguistics",
+          "Children": [
+            {
+              "Number": "410",
+              "Description": "Linguistics",
+              "Children": []
+            },
+            {
+              "Number": "411",
+              "Description": "Writing systems of standard forms of languages",
+              "Children": []
+            },
+            {
+              "Number": "412",
+              "Description": "Etymology of standard forms of languages",
+              "Children": []
+            },
+            {
+              "Number": "413",
+              "Description": "Dictionaries of standard forms of languages",
+              "Children": []
+            },
+            {
+              "Number": "414",
+              "Description": "Phonology and phonetics of standard forms of languages",
+              "Children": []
+            },
+            {
+              "Number": "415",
+              "Description": "Grammar of standard forms of languages",
+              "Children": []
+            },
+            {
+              "Number": "417",
+              "Description": "Dialectology and historical linguistics",
+              "Children": []
+            },
+            {
+              "Number": "418",
+              "Description": "Standard usage (Prescriptive linguistics)",
+              "Children": []
+            },
+            {
+              "Number": "419",
+              "Description": "Sign languages",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "420",
+          "Description": "English and Old English languages",
+          "Children": [
+            {
+              "Number": "420",
+              "Description": "English and Old English (Anglo-Saxon)",
+              "Children": []
+            },
+            {
+              "Number": "421",
+              "Description": "Writing system, phonology, phonetics of standard English",
+              "Children": []
+            },
+            {
+              "Number": "422",
+              "Description": "Etymology of standard English",
+              "Children": []
+            },
+            {
+              "Number": "423",
+              "Description": "Dictionaries of standard English",
+              "Children": []
+            },
+            {
+              "Number": "425",
+              "Description": "Grammar of standard English",
+              "Children": []
+            },
+            {
+              "Number": "427",
+              "Description": "Historical and geographical variations, modern nongeographic variations of English",
+              "Children": []
+            },
+            {
+              "Number": "428",
+              "Description": "Standard English usage (Prescriptive linguistics)",
+              "Children": []
+            },
+            {
+              "Number": "429",
+              "Description": "Old English (Anglo-Saxon)",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "430",
+          "Description": "German and related languages",
+          "Children": [
+            {
+              "Number": "430",
+              "Description": "German and related languages",
+              "Children": []
+            },
+            {
+              "Number": "431",
+              "Description": "Writing systems, phonology, phonetics of standard German",
+              "Children": []
+            },
+            {
+              "Number": "432",
+              "Description": "Etymology of standard German",
+              "Children": []
+            },
+            {
+              "Number": "433",
+              "Description": "Dictionaries of standard German",
+              "Children": []
+            },
+            {
+              "Number": "435",
+              "Description": "Grammar of standard German",
+              "Children": []
+            },
+            {
+              "Number": "437",
+              "Description": "Historical and geographic variations, modern nongeographic variations of German",
+              "Children": []
+            },
+            {
+              "Number": "438",
+              "Description": "Standard German usage (Prescriptive linguistics)",
+              "Children": []
+            },
+            {
+              "Number": "439",
+              "Description": "Other Germanic languages",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "440",
+          "Description": "French and related languages",
+          "Children": [
+            {
+              "Number": "440",
+              "Description": "French and related Romance languages",
+              "Children": []
+            },
+            {
+              "Number": "441",
+              "Description": "Writing systems, phonology, phonetics of standard French",
+              "Children": []
+            },
+            {
+              "Number": "442",
+              "Description": "Etymology of standard French",
+              "Children": []
+            },
+            {
+              "Number": "443",
+              "Description": "Dictionaries of standard French",
+              "Children": []
+            },
+            {
+              "Number": "445",
+              "Description": "Grammar of standard French",
+              "Children": []
+            },
+            {
+              "Number": "447",
+              "Description": "Historical and geographic variations, modern nongeographic variations of French",
+              "Children": []
+            },
+            {
+              "Number": "448",
+              "Description": "Standard French usage (Prescriptive linguistics)",
+              "Children": []
+            },
+            {
+              "Number": "449",
+              "Description": "Occitan Catalan, Franco-Provençal",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "450",
+          "Description": "Italian, Romanian, and related languages",
+          "Children": [
+            {
+              "Number": "450",
+              "Description": "Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican",
+              "Children": []
+            },
+            {
+              "Number": "451",
+              "Description": "Writing systems, phonology, phonetics of standard Italian",
+              "Children": []
+            },
+            {
+              "Number": "452",
+              "Description": "Etymology of standard Italian",
+              "Children": []
+            },
+            {
+              "Number": "453",
+              "Description": "Dictionaries of standard Italian",
+              "Children": []
+            },
+            {
+              "Number": "455",
+              "Description": "Grammar of standard Italian",
+              "Children": []
+            },
+            {
+              "Number": "457",
+              "Description": "Historical and geographic variations, modern nongeographic variations of Italian",
+              "Children": []
+            },
+            {
+              "Number": "458",
+              "Description": "Standard Italian usage (Prescriptive linguistics)",
+              "Children": []
+            },
+            {
+              "Number": "459",
+              "Description": "Romanian, Rhaetian, Sardinian, Corsican",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "460",
+          "Description": "Spanish, Portuguese, Galician",
+          "Children": [
+            {
+              "Number": "460",
+              "Description": "Spanish, Portuguese, Galician",
+              "Children": []
+            },
+            {
+              "Number": "461",
+              "Description": "Writing systems, phonology, phonetics of standard Spanish",
+              "Children": []
+            },
+            {
+              "Number": "462",
+              "Description": "Etymology of standard Spanish",
+              "Children": []
+            },
+            {
+              "Number": "463",
+              "Description": "Dictionaries of standard Spanish",
+              "Children": []
+            },
+            {
+              "Number": "465",
+              "Description": "Grammar of standard Spanish",
+              "Children": []
+            },
+            {
+              "Number": "467",
+              "Description": "Historical and geographic variations, modern nongeographic variations of Spanish",
+              "Children": []
+            },
+            {
+              "Number": "468",
+              "Description": "Standard Spanish usage (Prescriptive linguistics)",
+              "Children": []
+            },
+            {
+              "Number": "469",
+              "Description": "Portuguese",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "470",
+          "Description": "Latin and Italic languages",
+          "Children": [
+            {
+              "Number": "470",
+              "Description": "Latin and related Italic languages",
+              "Children": []
+            },
+            {
+              "Number": "471",
+              "Description": "Writing systems, phonology, phonetics of classical Latin",
+              "Children": []
+            },
+            {
+              "Number": "472",
+              "Description": "Etymology of classical Latin",
+              "Children": []
+            },
+            {
+              "Number": "473",
+              "Description": "Dictionaries of classical Latin",
+              "Children": []
+            },
+            {
+              "Number": "475",
+              "Description": "Grammar of classical Latin",
+              "Children": []
+            },
+
+            {
+              "Number": "477",
+              "Description": "Old, postclassical, Vulgar Latin",
+              "Children": []
+            },
+            {
+              "Number": "478",
+              "Description": "Classical Latin usage (Prescriptive linguistics)",
+              "Children": []
+            },
+            {
+              "Number": "479",
+              "Description": "Other Italic languages",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "480",
+          "Description": "Classical and modern Greek languages",
+          "Children": [
+            {
+              "Number": "480",
+              "Description": "Classical Greek and related Hellenic languages",
+              "Children": []
+            },
+            {
+              "Number": "481",
+              "Description": "Writing systems, phonology, phonetics of classical Greek",
+              "Children": []
+            },
+            {
+              "Number": "482",
+              "Description": "Etymology of classical Greek",
+              "Children": []
+            },
+            {
+              "Number": "483",
+              "Description": "Dictionaries of classical Greek",
+              "Children": []
+            },
+            {
+              "Number": "485",
+              "Description": "Grammar of classical Greek",
+              "Children": []
+            },
+            {
+              "Number": "487",
+              "Description": "Preclassical and postclassical Greek",
+              "Children": []
+            },
+            {
+              "Number": "488",
+              "Description": "Classical Greek usage (Prescriptive linguistics)",
+              "Children": []
+            },
+            {
+              "Number": "489",
+              "Description": "Other Hellenic languages",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "490",
+          "Description": "Other languages",
+          "Children": [
+            {
+              "Number": "490",
+              "Description": "Other languages",
+              "Children": []
+            },
+            {
+              "Number": "491",
+              "Description": "East Indo-European and Celtic languages",
+              "Children": []
+            },
+            {
+              "Number": "492",
+              "Description": "Afro-Asiatic languages",
+              "Children": []
+            },
+            {
+              "Number": "493",
+              "Description": "Non-Semitic Afro-Asiatic languages",
+              "Children": []
+            },
+            {
+              "Number": "494",
+              "Description": "Altaic, Uralic, Hyperborean, Dravidian languages, miscellaneous languages of south Asia",
+              "Children": []
+            },
+            {
+              "Number": "495",
+              "Description": "Languages of East and Southeast Asia",
+              "Children": []
+            },
+            {
+              "Number": "496",
+              "Description": "African languages",
+              "Children": []
+            },
+            {
+              "Number": "497",
+              "Description": "North American native languages",
+              "Children": []
+            },
+            {
+              "Number": "498",
+              "Description": "South American native languages",
+              "Children": []
+            },
+            {
+              "Number": "499",
+              "Description": "Non-Austronesian languages of Oceania, Austronesian languages, miscellaneous languages",
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Number": "500",
+      "Description": "Science",
+      "Children": [
+        {
+          "Number": "510",
+          "Description": "Mathematics",
+          "Children": [
+            {
+              "Number": "510",
+              "Description": "Mathematics",
+              "Children": []
+            },
+            {
+              "Number": "511",
+              "Description": "General principles of mathematics",
+              "Children": []
+            },
+            {
+              "Number": "512",
+              "Description": "Algebra",
+              "Children": []
+            },
+            {
+              "Number": "513",
+              "Description": "Arithmetic",
+              "Children": []
+            },
+            {
+              "Number": "514",
+              "Description": "Topology",
+              "Children": []
+            },
+            {
+              "Number": "516",
+              "Description": "Geometry",
+              "Children": []
+            },
+            {
+              "Number": "518",
+              "Description": "Numerical analysis",
+              "Children": []
+            },
+            {
+              "Number": "519",
+              "Description": "Probabilities and applied mathematics",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "520",
+          "Description": "Astronomy",
+          "Children": [
+            {
+              "Number": "520",
+              "Description": "Astronomy and allied sciences",
+              "Children": []
+            },
+            {
+              "Number": "521",
+              "Description": "Celestial mechanics",
+              "Children": []
+            },
+            {
+              "Number": "523",
+              "Description": "Specific celestial bodies and phenomena",
+              "Children": []
+            },
+            {
+              "Number": "525",
+              "Description": "Earth (Astronomical geography)",
+              "Children": []
+            },
+            {
+              "Number": "526",
+              "Description": "Mathematical geography",
+              "Children": []
+            },
+            {
+              "Number": "527",
+              "Description": "Celestial navigation",
+              "Children": []
+            },
+            {
+              "Number": "528",
+              "Description": "Ephemerides",
+              "Children": []
+            },
+            {
+              "Number": "529",
+              "Description": "Chronology",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "530",
+          "Description": "Physics",
+          "Children": [
+            {
+              "Number": "530",
+              "Description": "Physics",
+              "Children": []
+            },
+            {
+              "Number": "531",
+              "Description": "Classical mechanics",
+              "Children": []
+            },
+            {
+              "Number": "532",
+              "Description": "Fluid mechanics",
+              "Children": []
+            },
+            {
+              "Number": "533",
+              "Description": "Pneumatics (Gas mechanics)",
+              "Children": []
+            },
+            {
+              "Number": "534",
+              "Description": "Sound and related vibrations",
+              "Children": []
+            },
+            {
+              "Number": "535",
+              "Description": "Light and related radiation",
+              "Children": []
+            },
+            {
+              "Number": "536",
+              "Description": "Heat",
+              "Children": []
+            },
+            {
+              "Number": "537",
+              "Description": "Electricity and electronics",
+              "Children": []
+            },
+            {
+              "Number": "538",
+              "Description": "Magnetism",
+              "Children": []
+            },
+            {
+              "Number": "539",
+              "Description": "Modern physics",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "540",
+          "Description": "Chemistry",
+          "Children": [
+            {
+              "Number": "540",
+              "Description": "Chemistry and allied sciences",
+              "Children": []
+            },
+            {
+              "Number": "541",
+              "Description": "Physical chemistry",
+              "Children": []
+            },
+            {
+              "Number": "543",
+              "Description": "Analytical chemistry",
+              "Children": []
+            },
+            {
+              "Number": "546",
+              "Description": "Inorganic chemistry",
+              "Children": []
+            },
+            {
+              "Number": "547",
+              "Description": "Organic chemistry",
+              "Children": []
+            },
+            {
+              "Number": "548",
+              "Description": "Crystallography",
+              "Children": []
+            },
+            {
+              "Number": "549",
+              "Description": "Mineralogy",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "550",
+          "Description": "Earth sciences and geology",
+          "Children": [
+            {
+              "Number": "550",
+              "Description": "Earth sciences",
+              "Children": []
+            },
+            {
+              "Number": "551",
+              "Description": "Geology, hydrology, meteorology",
+              "Children": []
+            },
+            {
+              "Number": "552",
+              "Description": "Petrology",
+              "Children": []
+            },
+            {
+              "Number": "553",
+              "Description": "Economic geology",
+              "Children": []
+            },
+            {
+              "Number": "554",
+              "Description": "Earth sciences of Europe",
+              "Children": []
+            },
+            {
+              "Number": "555",
+              "Description": "Earth sciences of Asia",
+              "Children": []
+            },
+            {
+              "Number": "556",
+              "Description": "Earth sciences of Africa",
+              "Children": []
+            },
+            {
+              "Number": "557",
+              "Description": "Earth sciences of North America",
+              "Children": []
+            },
+            {
+              "Number": "558",
+              "Description": "Earth sciences of South America",
+              "Children": []
+            },
+            {
+              "Number": "559",
+              "Description": "Earth sciences of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, extraterrestrial worlds",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "560",
+          "Description": "Fossils and prehistoric life",
+          "Children": [
+            {
+              "Number": "560",
+              "Description": "Palaeontology",
+              "Children": []
+            },
+            {
+              "Number": "561",
+              "Description": "Palaeobotany, fossil microorganisms",
+              "Children": []
+            },
+            {
+              "Number": "562",
+              "Description": "Fossil invertebrates",
+              "Children": []
+            },
+            {
+              "Number": "563",
+              "Description": "Miscellaneous fossil marine and seashore invertebrates",
+              "Children": []
+            },
+            {
+              "Number": "564",
+              "Description": "Fossil Mollusca and Molluscoidea",
+              "Children": []
+            },
+            {
+              "Number": "565",
+              "Description": "Fossil Arthropoda",
+              "Children": []
+            },
+            {
+              "Number": "566",
+              "Description": "Fossil Chordata",
+              "Children": []
+            },
+            {
+              "Number": "567",
+              "Description": "Fossil cold-blooded vertebrates",
+              "Children": []
+            },
+            {
+              "Number": "568",
+              "Description": "Fossil Aves (birds)",
+              "Children": []
+            },
+            {
+              "Number": "569",
+              "Description": "Fossil Mammalia",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "570",
+          "Description": "Biology",
+          "Children": [
+            {
+              "Number": "570",
+              "Description": "Biology",
+              "Children": []
+            },
+            {
+              "Number": "571",
+              "Description": "Physiology and related subjects",
+              "Children": []
+            },
+            {
+              "Number": "572",
+              "Description": "Biochemistry",
+              "Children": []
+            },
+            {
+              "Number": "573",
+              "Description": "Specific physiological systems in animals, regional histology and physiology in animals",
+              "Children": []
+            },
+            {
+              "Number": "575",
+              "Description": "Specific parts of and physiological systems in plants",
+              "Children": []
+            },
+            {
+              "Number": "576",
+              "Description": "Genetics and evolution",
+              "Children": []
+            },
+            {
+              "Number": "577",
+              "Description": "Ecology",
+              "Children": []
+            },
+            {
+              "Number": "578",
+              "Description": "Natural history of organisms and related subjects",
+              "Children": []
+            },
+            {
+              "Number": "579",
+              "Description": "Natural history of microorganisms, fungi, algae",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "580",
+          "Description": "Plants",
+          "Children": [
+            {
+              "Number": "580",
+              "Description": "Plants",
+              "Children": []
+            },
+            {
+              "Number": "581",
+              "Description": "Specific topics in natural history of plants",
+              "Children": []
+            },
+            {
+              "Number": "582",
+              "Description": "Plants noted for specific vegetative characteristics and flowers",
+              "Children": []
+            },
+            {
+              "Number": "583",
+              "Description": "Magnoliopsida (Dicotyledones)",
+              "Children": []
+            },
+            {
+              "Number": "584",
+              "Description": "Liliopsida (Monocotyledones)",
+              "Children": []
+            },
+            {
+              "Number": "585",
+              "Description": "Pinophyta (Gymnosperms)",
+              "Children": []
+            },
+            {
+              "Number": "586",
+              "Description": "Cryptogamia (Seedless plants)",
+              "Children": []
+            },
+            {
+              "Number": "587",
+              "Description": "Pteridophyta",
+              "Children": []
+            },
+            {
+              "Number": "588",
+              "Description": "Bryophyta",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "590",
+          "Description": "Animals (Zoology)",
+          "Children": [
+            {
+              "Number": "590",
+              "Description": "Animals",
+              "Children": []
+            },
+            {
+              "Number": "591",
+              "Description": "Specific topics in natural history of animals",
+              "Children": []
+            },
+            {
+              "Number": "592",
+              "Description": "Invertebrates",
+              "Children": []
+            },
+            {
+              "Number": "593",
+              "Description": "Miscellaneous marine and seashore invertebrates",
+              "Children": []
+            },
+            {
+              "Number": "594",
+              "Description": "Mollusca and Molluscoidea",
+              "Children": []
+            },
+            {
+              "Number": "595",
+              "Description": "Arthropoda",
+              "Children": []
+            },
+            {
+              "Number": "596",
+              "Description": "Chordata",
+              "Children": []
+            },
+            {
+              "Number": "597",
+              "Description": "Cold-blooded vertebrates",
+              "Children": []
+            },
+            {
+              "Number": "598",
+              "Description": "Aves (Birds)",
+              "Children": []
+            },
+            {
+              "Number": "599",
+              "Description": "Mammalia (Mammals)",
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Number": "600",
+      "Description": "Technology",
+      "Children": [
+        {
+          "Number": "610",
+          "Description": "Medicine and health",
+          "Children": [
+            {
+              "Number": "610",
+              "Description": "Medicine and health",
+              "Children": []
+            },
+            {
+              "Number": "611",
+              "Description": "Human anatomy, cytology, histology",
+              "Children": []
+            },
+            {
+              "Number": "612",
+              "Description": "Human physiology",
+              "Children": []
+            },
+            {
+              "Number": "613",
+              "Description": "Personal health and safety",
+              "Children": []
+            },
+            {
+              "Number": "614",
+              "Description": "Forensic medicine; incidence of injuries, wounds, disease; public preventive medicine",
+              "Children": []
+            },
+            {
+              "Number": "615",
+              "Description": "Pharmacology and therapeutics",
+              "Children": []
+            },
+            {
+              "Number": "616",
+              "Description": "Diseases",
+              "Children": []
+            },
+            {
+              "Number": "617",
+              "Description": "Surgery, regional medicine, dentistry, ophthalmology, otology, audiology",
+              "Children": []
+            },
+            {
+              "Number": "618",
+              "Description": "Gynaecology, obstetrics, paediatrics, geriatrics",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "620",
+          "Description": "Engineering",
+          "Children": [
+            {
+              "Number": "620",
+              "Description": "Engineering and applied operations",
+              "Children": []
+            },
+            {
+              "Number": "621",
+              "Description": "Applied physics",
+              "Children": []
+            },
+            {
+              "Number": "622",
+              "Description": "Mining and related operations",
+              "Children": []
+            },
+            {
+              "Number": "623",
+              "Description": "Military and nautical engineering",
+              "Children": []
+            },
+            {
+              "Number": "624",
+              "Description": "Civil engineering",
+              "Children": []
+            },
+            {
+              "Number": "625",
+              "Description": "Engineering of railroads and roads",
+              "Children": []
+            },
+            {
+              "Number": "627",
+              "Description": "Hydraulic engineering",
+              "Children": []
+            },
+            {
+              "Number": "628",
+              "Description": "Sanitary engineering",
+              "Children": []
+            },
+            {
+              "Number": "629",
+              "Description": "Other branches of engineering",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "630",
+          "Description": "Agriculture",
+          "Children": [
+            {
+              "Number": "630",
+              "Description": "Agriculture and related technologies",
+              "Children": []
+            },
+            {
+              "Number": "632",
+              "Description": "Plant injuries, diseases, pests",
+              "Children": []
+            },
+            {
+              "Number": "633",
+              "Description": "Field and plantation crops",
+              "Children": []
+            },
+            {
+              "Number": "634",
+              "Description": "Orchards, fruits, forestry",
+              "Children": []
+            },
+            {
+              "Number": "635",
+              "Description": "Garden crops (Horticulture)",
+              "Children": []
+            },
+            {
+              "Number": "636",
+              "Description": "Animal husbandry",
+              "Children": []
+            },
+            {
+              "Number": "637",
+              "Description": "Processing dairy and related products",
+              "Children": []
+            },
+            {
+              "Number": "638",
+              "Description": "Insect culture",
+              "Children": []
+            },
+            {
+              "Number": "639",
+              "Description": "Hunting, fishing, conservation, related technologies",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "640",
+          "Description": "Home and family management",
+          "Children": [
+            {
+              "Number": "640",
+              "Description": "Home and family management",
+              "Children": []
+            },
+            {
+              "Number": "641",
+              "Description": "Food and drink",
+              "Children": []
+            },
+            {
+              "Number": "642",
+              "Description": "Meals and table service",
+              "Children": []
+            },
+            {
+              "Number": "643",
+              "Description": "Housing and household equipment",
+              "Children": []
+            },
+            {
+              "Number": "644",
+              "Description": "Household utilities",
+              "Children": []
+            },
+            {
+              "Number": "645",
+              "Description": "Household furnishings",
+              "Children": []
+            },
+            {
+              "Number": "646",
+              "Description": "Sewing, clothing, management of personal and family life",
+              "Children": []
+            },
+            {
+              "Number": "647",
+              "Description": "Management of public households (Institutional housekeeping)",
+              "Children": []
+            },
+            {
+              "Number": "648",
+              "Description": "Housekeeping",
+              "Children": []
+            },
+            {
+              "Number": "649",
+              "Description": "Child rearing; home care of people with disabilities and illnesses",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "650",
+          "Description": "Management and public relations",
+          "Children": [
+            {
+              "Number": "650",
+              "Description": "Management and auxiliary services",
+              "Children": []
+            },
+            {
+              "Number": "651",
+              "Description": "Office services",
+              "Children": []
+            },
+            {
+              "Number": "652",
+              "Description": "Processes of written communication",
+              "Children": []
+            },
+            {
+              "Number": "653",
+              "Description": "Shorthand",
+              "Children": []
+            },
+            {
+              "Number": "657",
+              "Description": "Accounting",
+              "Children": []
+            },
+            {
+              "Number": "658",
+              "Description": "General management",
+              "Children": []
+            },
+            {
+              "Number": "659",
+              "Description": "Advertising and public relations",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "660",
+          "Description": "Chemical engineering",
+          "Children": [
+            {
+              "Number": "660",
+              "Description": "Chemical engineering and related technologies",
+              "Children": []
+            },
+            {
+              "Number": "661",
+              "Description": "Technology of industrial chemicals",
+              "Children": []
+            },
+            {
+              "Number": "662",
+              "Description": "Technology of explosives, fuels, related products",
+              "Children": []
+            },
+            {
+              "Number": "663",
+              "Description": "Beverage technology",
+              "Children": []
+            },
+            {
+              "Number": "664",
+              "Description": "Food technology",
+              "Children": []
+            },
+            {
+              "Number": "665",
+              "Description": "Technology of industrial oils, fats, waxes, gases",
+              "Children": []
+            },
+            {
+              "Number": "666",
+              "Description": "Ceramic and allied technologies",
+              "Children": []
+            },
+            {
+              "Number": "667",
+              "Description": "Cleaning, colour, coating, related technologies",
+              "Children": []
+            },
+            {
+              "Number": "668",
+              "Description": "Technology of other organic products",
+              "Children": []
+            },
+            {
+              "Number": "669",
+              "Description": "Metallurgy",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "670",
+          "Description": "Manufacturing",
+          "Children": [
+            {
+              "Number": "670",
+              "Description": "Manufacturing",
+              "Children": []
+            },
+            {
+              "Number": "671",
+              "Description": "Metalworking processes and primary metal products",
+              "Children": []
+            },
+            {
+              "Number": "672",
+              "Description": "Iron, steel, other iron alloys",
+              "Children": []
+            },
+            {
+              "Number": "673",
+              "Description": "Nonferrous metals",
+              "Children": []
+            },
+            {
+              "Number": "674",
+              "Description": "Lumber processing, wood products, cork",
+              "Children": []
+            },
+            {
+              "Number": "675",
+              "Description": "Leather and fur processing",
+              "Children": []
+            },
+            {
+              "Number": "676",
+              "Description": "Pulp and paper technology",
+              "Children": []
+            },
+            {
+              "Number": "677",
+              "Description": "Textiles",
+              "Children": []
+            },
+            {
+              "Number": "678",
+              "Description": "Elastomers and elastomer products",
+              "Children": []
+            },
+            {
+              "Number": "679",
+              "Description": "Other products of specific kinds of materials",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "680",
+          "Description": "Manufacture for specific uses",
+          "Children": [
+            {
+              "Number": "680",
+              "Description": "Manufacture of products for specific uses",
+              "Children": []
+            },
+            {
+              "Number": "682",
+              "Description": "Small forge work (Blacksmithing)",
+              "Children": []
+            },
+            {
+              "Number": "683",
+              "Description": "Hardware and household appliances",
+              "Children": []
+            },
+            {
+              "Number": "684",
+              "Description": "Furnishings and home workshops",
+              "Children": []
+            },
+            {
+              "Number": "685",
+              "Description": "Leather and fur goods, and related products",
+              "Children": []
+            },
+            {
+              "Number": "686",
+              "Description": "Printing and related activities",
+              "Children": []
+            },
+            {
+              "Number": "687",
+              "Description": "Clothing and accessories",
+              "Children": []
+            },
+            {
+              "Number": "688",
+              "Description": "Other final products, and packaging technology",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "690",
+          "Description": "Construction of buildings",
+          "Children": [
+            {
+              "Number": "690",
+              "Description": "Construction of buildings",
+              "Children": []
+            },
+            {
+              "Number": "691",
+              "Description": "Building materials",
+              "Children": []
+            },
+            {
+              "Number": "692",
+              "Description": "Auxiliary construction practices",
+              "Children": []
+            },
+            {
+              "Number": "693",
+              "Description": "Construction in specific types of materials and for specific purposes",
+              "Children": []
+            },
+            {
+              "Number": "694",
+              "Description": "Wood construction",
+              "Children": []
+            },
+            {
+              "Number": "695",
+              "Description": "Roof covering",
+              "Children": []
+            },
+            {
+              "Number": "696",
+              "Description": "Utilities",
+              "Children": []
+            },
+            {
+              "Number": "697",
+              "Description": "Heating, ventilating, air-conditioning engineering",
+              "Children": []
+            },
+            {
+              "Number": "698",
+              "Description": "Detail finishing",
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Number": "700",
+      "Description": "Arts and recreation",
+      "Children": [
+        {
+          "Number": "700",
+          "Description": "The Arts",
+          "Children": [
+            {
+              "Number": "700",
+              "Description": "The Arts",
+              "Children": []
+            },
+            {
+              "Number": "701",
+              "Description": "Philosophy and theory of fine and decorative arts",
+              "Children": []
+            },
+            {
+              "Number": "702",
+              "Description": "Miscellany of fine and decorative arts",
+              "Children": []
+            },
+            {
+              "Number": "703",
+              "Description": "Dictionaries, encyclopaedias, concordances of fine and decorative arts",
+              "Children": []
+            },
+            {
+              "Number": "704",
+              "Description": "Special topics in fine and decorative arts",
+              "Children": []
+            },
+            {
+              "Number": "705",
+              "Description": "Serial publications of fine and decorative arts",
+              "Children": []
+            },
+            {
+              "Number": "706",
+              "Description": "Organizations and management of fine and decorative arts",
+              "Children": []
+            },
+            {
+              "Number": "707",
+              "Description": "Education, research, related topics of fine and decorative arts",
+              "Children": []
+            },
+            {
+              "Number": "708",
+              "Description": "Galleries, museums, private collections of fine and decorative arts",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "710",
+          "Description": "Area planning and landscape architecture",
+          "Children": [
+            {
+              "Number": "710",
+              "Description": "Area planning and landscape architecture",
+              "Children": []
+            },
+            {
+              "Number": "711",
+              "Description": "Area planning (Civic art)",
+              "Children": []
+            },
+            {
+              "Number": "712",
+              "Description": "Landscape architecture (Landscape design)",
+              "Children": []
+            },
+            {
+              "Number": "713",
+              "Description": "Landscape architecture of trafficways",
+              "Children": []
+            },
+            {
+              "Number": "714",
+              "Description": "Water features in landscape architecture",
+              "Children": []
+            },
+            {
+              "Number": "715",
+              "Description": "Woody plants in landscape architecture",
+              "Children": []
+            },
+            {
+              "Number": "716",
+              "Description": "Herbaceous plants in landscape architecture",
+              "Children": []
+            },
+            {
+              "Number": "717",
+              "Description": "Structures in landscape architecture",
+              "Children": []
+            },
+            {
+              "Number": "718",
+              "Description": "Landscape design of cemeteries",
+              "Children": []
+            },
+            {
+              "Number": "719",
+              "Description": "Natural landscapes",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "720",
+          "Description": "Architecture",
+          "Children": [
+            {
+              "Number": "720",
+              "Description": "Architecture",
+              "Children": []
+            },
+            {
+              "Number": "721",
+              "Description": "Architectural materials and structural elements",
+              "Children": []
+            },
+            {
+              "Number": "722",
+              "Description": "Architecture from earliest times to c. 300",
+              "Children": []
+            },
+            {
+              "Number": "723",
+              "Description": "Architecture from c. 300 to 1399",
+              "Children": []
+            },
+            {
+              "Number": "724",
+              "Description": "Architecture from 1400",
+              "Children": []
+            },
+            {
+              "Number": "725",
+              "Description": "Public structures",
+              "Children": []
+            },
+            {
+              "Number": "726",
+              "Description": "Buildings for religious and related purposes",
+              "Children": []
+            },
+            {
+              "Number": "727",
+              "Description": "Buildings for educational and research purposes",
+              "Children": []
+            },
+            {
+              "Number": "728",
+              "Description": "Residential and related buildings",
+              "Children": []
+            },
+            {
+              "Number": "729",
+              "Description": "Design and decoration of structures and accessories",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "730",
+          "Description": "Sculpture, ceramics, and metalwork",
+          "Children": [
+            {
+              "Number": "730",
+              "Description": "Sculpture and related arts",
+              "Children": []
+            },
+            {
+              "Number": "731",
+              "Description": "Processes, forms, subjects of sculpture",
+              "Children": []
+            },
+            {
+              "Number": "732",
+              "Description": "Sculpture from earliest times to c. 500, sculpture of non-literate peoples",
+              "Children": []
+            },
+            {
+              "Number": "733",
+              "Description": "Greek, Etruscan, Roman sculpture",
+              "Children": []
+            },
+            {
+              "Number": "734",
+              "Description": "Sculpture from ca 500 to 1399",
+              "Children": []
+            },
+            {
+              "Number": "735",
+              "Description": "Sculpture from 1400",
+              "Children": []
+            },
+            {
+              "Number": "736",
+              "Description": "Carving and carvings",
+              "Children": []
+            },
+            {
+              "Number": "737",
+              "Description": "Numismatics and sigillography",
+              "Children": []
+            },
+            {
+              "Number": "738",
+              "Description": "Ceramic arts",
+              "Children": []
+            },
+            {
+              "Number": "739",
+              "Description": "Art metalwork",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "740",
+          "Description": "Graphic arts and decorative arts",
+          "Children": [
+            {
+              "Number": "740",
+              "Description": "Graphic arts",
+              "Children": []
+            },
+            {
+              "Number": "741",
+              "Description": "Drawing and drawings",
+              "Children": []
+            },
+            {
+              "Number": "742",
+              "Description": "Perspective in drawing",
+              "Children": []
+            },
+            {
+              "Number": "743",
+              "Description": "Drawing and drawings by subject",
+              "Children": []
+            },
+            {
+              "Number": "745",
+              "Description": "Decorative arts",
+              "Children": []
+            },
+            {
+              "Number": "746",
+              "Description": "Textile arts",
+              "Children": []
+            },
+            {
+              "Number": "747",
+              "Description": "Interior decoration",
+              "Children": []
+            },
+            {
+              "Number": "748",
+              "Description": "Glass arts",
+              "Children": []
+            },
+            {
+              "Number": "749",
+              "Description": "Furniture and accessories",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "750",
+          "Description": "Painting",
+          "Children": [
+            {
+              "Number": "750",
+              "Description": "Painting and paintings",
+              "Children": []
+            },
+            {
+              "Number": "751",
+              "Description": "Techniques, procedures, apparatus, equipment, materials, forms for painting",
+              "Children": []
+            },
+            {
+              "Number": "752",
+              "Description": "Colour in paintings",
+              "Children": []
+            },
+            {
+              "Number": "753",
+              "Description": "Symbolism, allegory, mythology, legend in paintings",
+              "Children": []
+            },
+            {
+              "Number": "754",
+              "Description": "Genre paintings",
+              "Children": []
+            },
+            {
+              "Number": "755",
+              "Description": "Religion in paintings",
+              "Children": []
+            },
+            {
+              "Number": "757",
+              "Description": "Human figures in paintings",
+              "Children": []
+            },
+            {
+              "Number": "758",
+              "Description": "Nature, architectural subjects and cityscapes, other specific subjects in paintings",
+              "Children": []
+            },
+            {
+              "Number": "759",
+              "Description": "History, geographic treatment, biography of painting",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "760",
+          "Description": "Printmaking and prints",
+          "Children": [
+            {
+              "Number": "760",
+              "Description": "Printmaking and prints",
+              "Children": []
+            },
+            {
+              "Number": "761",
+              "Description": "Relief processes (Block printing)",
+              "Children": []
+            },
+            {
+              "Number": "763",
+              "Description": "Lithographic processes (Planographic processes)",
+              "Children": []
+            },
+            {
+              "Number": "764",
+              "Description": "Chromolithography and serigraphy",
+              "Children": []
+            },
+            {
+              "Number": "765",
+              "Description": "Metal engraving",
+              "Children": []
+            },
+            {
+              "Number": "766",
+              "Description": "Mezzotinting, aquatinting, and related processes",
+              "Children": []
+            },
+            {
+              "Number": "767",
+              "Description": "Etching and dry point",
+              "Children": []
+            },
+            {
+              "Number": "769",
+              "Description": "Prints",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "770",
+          "Description": "Photography, computer art, film, video",
+          "Children": [
+            {
+              "Number": "770",
+              "Description": "Photography, computer art, cinematography, videography",
+              "Children": []
+            },
+            {
+              "Number": "772",
+              "Description": "Metallic salt processes",
+              "Children": []
+            },
+            {
+              "Number": "773",
+              "Description": "Pigment processes of printing",
+              "Children": []
+            },
+            {
+              "Number": "776",
+              "Description": "Computer art (Digital art)",
+              "Children": []
+            },
+            {
+              "Number": "777",
+              "Description": "Cinematography and Videography",
+              "Children": []
+            },
+            {
+              "Number": "778",
+              "Description": "Specific fields and special kinds of photography",
+              "Children": []
+            },
+            {
+              "Number": "779",
+              "Description": "Photographic images",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "780",
+          "Description": "Music",
+          "Children": [
+            {
+              "Number": "780",
+              "Description": "Music",
+              "Children": []
+            },
+            {
+              "Number": "781",
+              "Description": "General principles and musical forms",
+              "Children": []
+            },
+            {
+              "Number": "782",
+              "Description": "Vocal music",
+              "Children": []
+            },
+            {
+              "Number": "783",
+              "Description": "Music for single voices",
+              "Children": []
+            },
+            {
+              "Number": "784",
+              "Description": "Instruments and Instrumental ensembles and their music",
+              "Children": []
+            },
+            {
+              "Number": "785",
+              "Description": "Ensembles with only one instrument per part",
+              "Children": []
+            },
+            {
+              "Number": "786",
+              "Description": "Keyboard, mechanical, electrophonic, percussion instruments",
+              "Children": []
+            },
+            {
+              "Number": "787",
+              "Description": "Stringed instruments (Chordophones)",
+              "Children": []
+            },
+            {
+              "Number": "788",
+              "Description": "Wind instruments (Aerophones)",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "790",
+          "Description": "Outline of sports, games, and entertainment",
+          "Children": [
+            {
+              "Number": "790",
+              "Description": "Recreational and performing arts",
+              "Children": []
+            },
+            {
+              "Number": "791",
+              "Description": "Public performances",
+              "Children": []
+            },
+            {
+              "Number": "792",
+              "Description": "Stage presentations",
+              "Children": []
+            },
+            {
+              "Number": "793",
+              "Description": "Indoor games and amusements",
+              "Children": []
+            },
+            {
+              "Number": "794",
+              "Description": "Indoor games of skill",
+              "Children": []
+            },
+            {
+              "Number": "795",
+              "Description": "Games of chance",
+              "Children": []
+            },
+            {
+              "Number": "796",
+              "Description": "Athletic and outdoor sports and games",
+              "Children": []
+            },
+            {
+              "Number": "797",
+              "Description": "Aquatic and air sports",
+              "Children": []
+            },
+            {
+              "Number": "798",
+              "Description": "Equestrian sports and animal racing",
+              "Children": []
+            },
+            {
+              "Number": "799",
+              "Description": "Fishing, hunting, shooting sports",
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Number": "800",
+      "Description": "Literature",
+      "Children": [
+        {
+          "Number": "800",
+          "Description": "Literature, rhetoric, and criticism",
+          "Children": [
+            {
+              "Number": "800",
+              "Description": "Literature (Belles-lettres) and rhetoric",
+              "Children": []
+            },
+            {
+              "Number": "801",
+              "Description": "Philosophy and theory of literature",
+              "Children": []
+            },
+            {
+              "Number": "802",
+              "Description": "Miscellany of literature",
+              "Children": []
+            },
+            {
+              "Number": "803",
+              "Description": "Dictionaries, encyclopaedias, concordances of literature",
+              "Children": []
+            },
+            {
+              "Number": "805",
+              "Description": "Serial publications of literature",
+              "Children": []
+            },
+            {
+              "Number": "806",
+              "Description": "Organizations and management of literature",
+              "Children": []
+            },
+            {
+              "Number": "807",
+              "Description": "Education, research, related topics of literature",
+              "Children": []
+            },
+            {
+              "Number": "808",
+              "Description": "Rhetoric and collections of literary texts from more than two literatures",
+              "Children": []
+            },
+            {
+              "Number": "809",
+              "Description": "History, description, critical appraisal of more than two literatures",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "810",
+          "Description": "American literature",
+          "Children": [
+            {
+              "Number": "810",
+              "Description": "American literature",
+              "Children": []
+            },
+            {
+              "Number": "811",
+              "Description": "American poetry",
+              "Children": []
+            },
+            {
+              "Number": "812",
+              "Description": "American drama",
+              "Children": []
+            },
+            {
+              "Number": "813",
+              "Description": "American fiction",
+              "Children": []
+            },
+            {
+              "Number": "814",
+              "Description": "American essays",
+              "Children": []
+            },
+            {
+              "Number": "815",
+              "Description": "American speeches",
+              "Children": []
+            },
+            {
+              "Number": "816",
+              "Description": "American letters",
+              "Children": []
+            },
+            {
+              "Number": "817",
+              "Description": "American humour and satire",
+              "Children": []
+            },
+            {
+              "Number": "818",
+              "Description": "American miscellaneous writings",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "820",
+          "Description": "English and Old English literatures",
+          "Children": [
+            {
+              "Number": "820",
+              "Description": "English and Old English (Anglo-Saxon) literatures",
+              "Children": []
+            },
+            {
+              "Number": "821",
+              "Description": "English Poetry",
+              "Children": []
+            },
+            {
+              "Number": "822",
+              "Description": "English drama",
+              "Children": []
+            },
+            {
+              "Number": "823",
+              "Description": "English fiction",
+              "Children": []
+            },
+            {
+              "Number": "824",
+              "Description": "English essays",
+              "Children": []
+            },
+            {
+              "Number": "825",
+              "Description": "English speeches",
+              "Children": []
+            },
+            {
+              "Number": "826",
+              "Description": "English letters",
+              "Children": []
+            },
+            {
+              "Number": "827",
+              "Description": "English humour and satire",
+              "Children": []
+            },
+            {
+              "Number": "828",
+              "Description": "English miscellaneous writings",
+              "Children": []
+            },
+            {
+              "Number": "829",
+              "Description": "Old English (Anglo-Saxon) literature",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "830",
+          "Description": "German and related literatures",
+          "Children": [
+            {
+              "Number": "830",
+              "Description": "German literature and literatures of related languages",
+              "Children": []
+            },
+            {
+              "Number": "831",
+              "Description": "German poetry",
+              "Children": []
+            },
+            {
+              "Number": "832",
+              "Description": "German drama",
+              "Children": []
+            },
+            {
+              "Number": "833",
+              "Description": "German fiction",
+              "Children": []
+            },
+            {
+              "Number": "834",
+              "Description": "German essays",
+              "Children": []
+            },
+            {
+              "Number": "835",
+              "Description": "German speeches",
+              "Children": []
+            },
+            {
+              "Number": "836",
+              "Description": "German letters",
+              "Children": []
+            },
+            {
+              "Number": "837",
+              "Description": "German humour and satire",
+              "Children": []
+            },
+            {
+              "Number": "838",
+              "Description": "German miscellaneous writings",
+              "Children": []
+            },
+            {
+              "Number": "839",
+              "Description": "Other Germanic literatures",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "840",
+          "Description": "French and related literatures",
+          "Children": [
+            {
+              "Number": "840",
+              "Description": "French literature and literatures of related Romance languages",
+              "Children": []
+            },
+            {
+              "Number": "841",
+              "Description": "French poetry",
+              "Children": []
+            },
+            {
+              "Number": "842",
+              "Description": "French drama",
+              "Children": []
+            },
+            {
+              "Number": "843",
+              "Description": "French fiction",
+              "Children": []
+            },
+            {
+              "Number": "844",
+              "Description": "French essays",
+              "Children": []
+            },
+            {
+              "Number": "845",
+              "Description": "French speeches",
+              "Children": []
+            },
+            {
+              "Number": "846",
+              "Description": "French letters",
+              "Children": []
+            },
+            {
+              "Number": "847",
+              "Description": "French humour and satire",
+              "Children": []
+            },
+            {
+              "Number": "848",
+              "Description": "French miscellaneous writings",
+              "Children": []
+            },
+            {
+              "Number": "849",
+              "Description": "Occitan, Catalan, Franco-Provençal literatures",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "850",
+          "Description": "Italian, Romanian, and related literatures",
+          "Children": [
+            {
+              "Number": "850",
+              "Description": "Literatures of Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican languages",
+              "Children": []
+            },
+            {
+              "Number": "851",
+              "Description": "Italian poetry",
+              "Children": []
+            },
+            {
+              "Number": "852",
+              "Description": "Italian drama",
+              "Children": []
+            },
+            {
+              "Number": "853",
+              "Description": "Italian fiction",
+              "Children": []
+            },
+            {
+              "Number": "854",
+              "Description": "Italian essays",
+              "Children": []
+            },
+            {
+              "Number": "855",
+              "Description": "Italian speeches",
+              "Children": []
+            },
+            {
+              "Number": "856",
+              "Description": "Italian letters",
+              "Children": []
+            },
+            {
+              "Number": "857",
+              "Description": "Italian humour and satire",
+              "Children": []
+            },
+            {
+              "Number": "858",
+              "Description": "Italian miscellaneous writings",
+              "Children": []
+            },
+            {
+              "Number": "859",
+              "Description": "Literatures of Romanian, Rhaetian, Sardinian, Corsican languages",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "860",
+          "Description": "Spanish, Portuguese, Galician literatures",
+          "Children": [
+            {
+              "Number": "860",
+              "Description": "Literatures of Spanish, Portuguese, Galician languages",
+              "Children": []
+            },
+            {
+              "Number": "861",
+              "Description": "Spanish poetry",
+              "Children": []
+            },
+            {
+              "Number": "862",
+              "Description": "Spanish drama",
+              "Children": []
+            },
+            {
+              "Number": "863",
+              "Description": "Spanish fiction",
+              "Children": []
+            },
+            {
+              "Number": "864",
+              "Description": "Spanish essays",
+              "Children": []
+            },
+            {
+              "Number": "865",
+              "Description": "Spanish speeches",
+              "Children": []
+            },
+            {
+              "Number": "866",
+              "Description": "Spanish letters",
+              "Children": []
+            },
+            {
+              "Number": "867",
+              "Description": "Spanish humour and satire",
+              "Children": []
+            },
+            {
+              "Number": "868",
+              "Description": "Spanish miscellaneous writings",
+              "Children": []
+            },
+            {
+              "Number": "869",
+              "Description": "Literatures of Portuguese and Galician languages",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "870",
+          "Description": "Latin and Italic literatures",
+          "Children": [
+            {
+              "Number": "870",
+              "Description": "Latin literature and literatures of related Italic languages",
+              "Children": []
+            },
+            {
+              "Number": "871",
+              "Description": "Latin poetry",
+              "Children": []
+            },
+            {
+              "Number": "872",
+              "Description": "Latin dramatic poetry and drama",
+              "Children": []
+            },
+            {
+              "Number": "873",
+              "Description": "Latin epic poetry and fiction",
+              "Children": []
+            },
+            {
+              "Number": "874",
+              "Description": "Latin lyric poetry",
+              "Children": []
+            },
+            {
+              "Number": "875",
+              "Description": "Latin speeches",
+              "Children": []
+            },
+            {
+              "Number": "876",
+              "Description": "Latin letters",
+              "Children": []
+            },
+            {
+              "Number": "877",
+              "Description": "Latin humour and satire",
+              "Children": []
+            },
+            {
+              "Number": "878",
+              "Description": "Latin miscellaneous writings",
+              "Children": []
+            },
+            {
+              "Number": "879",
+              "Description": "Literatures of other Italic languages",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "880",
+          "Description": "Classical and modern Greek literatures",
+          "Children": [
+            {
+              "Number": "880",
+              "Description": "Classical Greek literature and literatures of related Hellenic languages",
+              "Children": []
+            },
+            {
+              "Number": "881",
+              "Description": "Classical Greek poetry",
+              "Children": []
+            },
+            {
+              "Number": "882",
+              "Description": "Classical Greek drama",
+              "Children": []
+            },
+            {
+              "Number": "883",
+              "Description": "Classical Greek epic poetry and fiction",
+              "Children": []
+            },
+            {
+              "Number": "884",
+              "Description": "Classical Greek lyric poetry",
+              "Children": []
+            },
+            {
+              "Number": "885",
+              "Description": "Classical Greek speeches",
+              "Children": []
+            },
+            {
+              "Number": "886",
+              "Description": "Classical Greek letters",
+              "Children": []
+            },
+            {
+              "Number": "887",
+              "Description": "Classical Greek humour and satire",
+              "Children": []
+            },
+            {
+              "Number": "888",
+              "Description": "Classical Greek miscellaneous writings",
+              "Children": []
+            },
+            {
+              "Number": "889",
+              "Description": "Modern Greek literature",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "890",
+          "Description": "Other literatures",
+          "Children": [
+            {
+              "Number": "890",
+              "Description": "Literatures of other specific languages and language families",
+              "Children": []
+            },
+            {
+              "Number": "891",
+              "Description": "East Indo-European and Celtic literatures",
+              "Children": []
+            },
+            {
+              "Number": "892",
+              "Description": "Afro-Asiatic literatures",
+              "Children": []
+            },
+            {
+              "Number": "893",
+              "Description": "Non-Semitic Afro-Asiatic literatures",
+              "Children": []
+            },
+            {
+              "Number": "894",
+              "Description": "Literatures of Altaic, Uralic, Hyperborean, Dravidian languages; literatures of miscellaneous languages of South Asia",
+              "Children": []
+            },
+            {
+              "Number": "895",
+              "Description": "Literatures of East and Southeast Asia",
+              "Children": []
+            },
+            {
+              "Number": "896",
+              "Description": "African literatures",
+              "Children": []
+            },
+            {
+              "Number": "897",
+              "Description": "Literatures of North American native languages",
+              "Children": []
+            },
+            {
+              "Number": "898",
+              "Description": "Literatures of South American native languages",
+              "Children": []
+            },
+            {
+              "Number": "899",
+              "Description": "Literatures of non-Austronesian languages of Oceania, of Austronesian languages, of miscellaneous languages",
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Number": "900",
+      "Description": "History and geography",
+      "Children": [
+        {
+          "Number": "900",
+          "Description": "History",
+          "Children": [
+            {
+              "Number": "900",
+              "Description": "History, geography, and auxiliary disciplines",
+              "Children": []
+            },
+            {
+              "Number": "901",
+              "Description": "Philosophy and theory of history",
+              "Children": []
+            },
+            {
+              "Number": "902",
+              "Description": "Miscellany of history",
+              "Children": []
+            },
+            {
+              "Number": "903",
+              "Description": "Dictionaries, encyclopaedias, concordances of history",
+              "Children": []
+            },
+            {
+              "Number": "904",
+              "Description": "Collected accounts of events",
+              "Children": []
+            },
+            {
+              "Number": "905",
+              "Description": "Serial publications of history",
+              "Children": []
+            },
+            {
+              "Number": "906",
+              "Description": "Organizations and management of history",
+              "Children": []
+            },
+            {
+              "Number": "907",
+              "Description": "Education, research, related topics of history",
+              "Children": []
+            },
+            {
+              "Number": "908",
+              "Description": "History with respect to groups of people",
+              "Children": []
+            },
+            {
+              "Number": "909",
+              "Description": "World history",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "910",
+          "Description": "Geography and travel",
+          "Children": [
+            {
+              "Number": "910",
+              "Description": "Geography and travel",
+              "Children": []
+            },
+            {
+              "Number": "911",
+              "Description": "Historical geography",
+              "Children": []
+            },
+            {
+              "Number": "912",
+              "Description": "Graphic representations of surface of earth and of extraterrestrial worlds",
+              "Children": []
+            },
+            {
+              "Number": "913",
+              "Description": "Geography of and travel in the ancient world",
+              "Children": []
+            },
+            {
+              "Number": "914",
+              "Description": "Geography of and travel in Europe",
+              "Children": []
+            },
+            {
+              "Number": "915",
+              "Description": "Geography of and travel in Asia",
+              "Children": []
+            },
+            {
+              "Number": "916",
+              "Description": "Geography of and travel in Africa",
+              "Children": []
+            },
+            {
+              "Number": "917",
+              "Description": "Geography of and travel in North America",
+              "Children": []
+            },
+            {
+              "Number": "918",
+              "Description": "Geography of and travel in South America",
+              "Children": []
+            },
+            {
+              "Number": "919",
+              "Description": "Geography of and travel in Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, and on extraterrestrial worlds",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "930",
+          "Description": "History of ancient world (to c. 499)",
+          "Children": [
+            {
+              "Number": "930",
+              "Description": "History of ancient world to c. 499",
+              "Children": []
+            },
+            {
+              "Number": "931",
+              "Description": "History of China to 420",
+              "Children": []
+            },
+            {
+              "Number": "932",
+              "Description": "History of Egypt to 640",
+              "Children": []
+            },
+            {
+              "Number": "933",
+              "Description": "History of Palestine to 70",
+              "Children": []
+            },
+            {
+              "Number": "934",
+              "Description": "History of South Asia to 647",
+              "Children": []
+            },
+            {
+              "Number": "935",
+              "Description": "History of Mesopotamia and Iranian Plateau to 637",
+              "Children": []
+            },
+            {
+              "Number": "936",
+              "Description": "History of Europe north and west of Italian Peninsula to c. 499",
+              "Children": []
+            },
+            {
+              "Number": "937",
+              "Description": "History of Italy and adjacent territories to 476",
+              "Children": []
+            },
+            {
+              "Number": "938",
+              "Description": "History of Greece to 323",
+              "Children": []
+            },
+            {
+              "Number": "939",
+              "Description": "History of other parts of the ancient world",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "940",
+          "Description": "History of Europe",
+          "Children": [
+            {
+              "Number": "940",
+              "Description": "History of Europe",
+              "Children": []
+            },
+            {
+              "Number": "941",
+              "Description": "History of British Isles",
+              "Children": []
+            },
+            {
+              "Number": "942",
+              "Description": "History of England and Wales",
+              "Children": []
+            },
+            {
+              "Number": "943",
+              "Description": "History of Germany and neighbouring central European countries",
+              "Children": []
+            },
+            {
+              "Number": "944",
+              "Description": "History of France and Monaco",
+              "Children": []
+            },
+            {
+              "Number": "945",
+              "Description": "History of Italy, San Marino, Vatican City, Malta",
+              "Children": []
+            },
+            {
+              "Number": "946",
+              "Description": "History of Spain, Andorra, Gibraltar, Portugal",
+              "Children": []
+            },
+            {
+              "Number": "947",
+              "Description": "History of Russia and neighbouring east European countries",
+              "Children": []
+            },
+            {
+              "Number": "948",
+              "Description": "History of Scandinavia",
+              "Children": []
+            },
+            {
+              "Number": "949",
+              "Description": "History of other parts of Europe",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "950",
+          "Description": "History of Asia",
+          "Children": [
+            {
+              "Number": "950",
+              "Description": "History of Asia",
+              "Children": []
+            },
+            {
+              "Number": "951",
+              "Description": "History of China and adjacent areas",
+              "Children": []
+            },
+            {
+              "Number": "952",
+              "Description": "History of Japan",
+              "Children": []
+            },
+            {
+              "Number": "953",
+              "Description": "History of Arabian Peninsula and adjacent areas",
+              "Children": []
+            },
+            {
+              "Number": "954",
+              "Description": "History of India and neighbouring south Asian countries",
+              "Children": []
+            },
+            {
+              "Number": "955",
+              "Description": "History of Iran",
+              "Children": []
+            },
+            {
+              "Number": "956",
+              "Description": "History of Middle East (Near East)",
+              "Children": []
+            },
+            {
+              "Number": "957",
+              "Description": "History of Siberia (Asiatic Russia)",
+              "Children": []
+            },
+            {
+              "Number": "958",
+              "Description": "History of Central Asia",
+              "Children": []
+            },
+            {
+              "Number": "959",
+              "Description": "History of Southeast Asia",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "960",
+          "Description": "History of Africa",
+          "Children": [
+            {
+              "Number": "960",
+              "Description": "History of Africa",
+              "Children": []
+            },
+            {
+              "Number": "961",
+              "Description": "History of Tunisia and Libya",
+              "Children": []
+            },
+            {
+              "Number": "962",
+              "Description": "History of Egypt, Sudan, South Sudan",
+              "Children": []
+            },
+            {
+              "Number": "963",
+              "Description": "History of Ethiopia and Eritrea",
+              "Children": []
+            },
+            {
+              "Number": "964",
+              "Description": "History of Morocco, Ceuta, Melilla Western Sahara, Canary Islands",
+              "Children": []
+            },
+            {
+              "Number": "965",
+              "Description": "History of Algeria",
+              "Children": []
+            },
+            {
+              "Number": "966",
+              "Description": "History of West Africa and offshore islands",
+              "Children": []
+            },
+            {
+              "Number": "967",
+              "Description": "History of Central Africa and offshore islands",
+              "Children": []
+            },
+            {
+              "Number": "968",
+              "Description": "History of South Africa & southern Africa",
+              "Children": []
+            },
+            {
+              "Number": "969",
+              "Description": "History of South Indian Ocean islands",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "970",
+          "Description": "History of North America",
+          "Children": [
+            {
+              "Number": "970",
+              "Description": "History of North America",
+              "Children": []
+            },
+            {
+              "Number": "971",
+              "Description": "History of Canada",
+              "Children": []
+            },
+            {
+              "Number": "972",
+              "Description": "History of Mexico, Central America, West Indies, Bermuda",
+              "Children": []
+            },
+            {
+              "Number": "973",
+              "Description": "History of United States",
+              "Children": []
+            },
+            {
+              "Number": "974",
+              "Description": "History of Northeastern United States (New England and Middle Atlantic states)",
+              "Children": []
+            },
+            {
+              "Number": "975",
+              "Description": "History of Southeastern United States (South Atlantic states)",
+              "Children": []
+            },
+            {
+              "Number": "976",
+              "Description": "History of South central United States",
+              "Children": []
+            },
+            {
+              "Number": "977",
+              "Description": "History of North central United States",
+              "Children": []
+            },
+            {
+              "Number": "978",
+              "Description": "History of Western United States",
+              "Children": []
+            },
+            {
+              "Number": "979",
+              "Description": "History of Great Basin and Pacific Slope region of United States",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "980",
+          "Description": "History of South America",
+          "Children": [
+            {
+              "Number": "980",
+              "Description": "History of South America",
+              "Children": []
+            },
+            {
+              "Number": "981",
+              "Description": "History of Brazil",
+              "Children": []
+            },
+            {
+              "Number": "982",
+              "Description": "History of Argentina",
+              "Children": []
+            },
+            {
+              "Number": "983",
+              "Description": "History of Chile",
+              "Children": []
+            },
+            {
+              "Number": "984",
+              "Description": "History of Bolivia",
+              "Children": []
+            },
+            {
+              "Number": "985",
+              "Description": "History of Peru",
+              "Children": []
+            },
+            {
+              "Number": "986",
+              "Description": "History of Colombia and Ecuador",
+              "Children": []
+            },
+            {
+              "Number": "987",
+              "Description": "History of Venezuela",
+              "Children": []
+            },
+            {
+              "Number": "988",
+              "Description": "History of Guiana",
+              "Children": []
+            },
+            {
+              "Number": "989",
+              "Description": "History of Paraguay and Uruguay",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Number": "990",
+          "Description": "History of other areas",
+          "Children": [
+            {
+              "Number": "990",
+              "Description": "History of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica",
+              "Children": []
+            },
+            {
+              "Number": "993",
+              "Description": "History of New Zealand",
+              "Children": []
+            },
+            {
+              "Number": "994",
+              "Description": "History of Australia",
+              "Children": []
+            },
+            {
+              "Number": "995",
+              "Description": "History of New Guinea and neighbouring countries of Melanesia",
+              "Children": []
+            },
+            {
+              "Number": "996",
+              "Description": "History of Polynesia and other Pacific Ocean islands",
+              "Children": []
+            },
+            {
+              "Number": "997",
+              "Description": "History of Atlantic Ocean islands",
+              "Children": []
+            },
+            {
+              "Number": "998",
+              "Description": "History of Arctic islands and Antarctica",
+              "Children": []
+            },
+            {
+              "Number": "999",
+              "Description": "History of Extraterrestrial worlds",
+              "Children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
