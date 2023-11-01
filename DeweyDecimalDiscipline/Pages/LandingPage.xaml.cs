@@ -26,6 +26,7 @@ namespace DeweyDecimalDiscipline.Pages
 
         private List<Replacement> replacements = new List<Replacement>();
         private List<Identifying> identifyings = new List<Identifying>();
+        private List<Finding> findings = new List<Finding>();
 
         public LandingPage()
         {
@@ -60,6 +61,19 @@ namespace DeweyDecimalDiscipline.Pages
                     ));
             }
             lbIdentify.ItemsSource = iScores;
+
+            findings = FindingDAO.GetAll();
+            List<ScoreDescription> fScores = new List<ScoreDescription>();
+            foreach (Finding f in findings)
+            {
+                fScores.Add(new ScoreDescription(
+                    f.Date.ToString("dd/MM/yyyy"),
+                    (f.Score / 3.0 * 100).ToString("#")+"%",
+                    f.Time.TotalSeconds.ToString("#.##")+"s"
+                ));
+            }
+            lbFind.ItemsSource = fScores;
+
         }
 
         // Updates the achievements view with locked and unlocked achievements for the task
@@ -67,6 +81,7 @@ namespace DeweyDecimalDiscipline.Pages
         {
             lbReplaceAchievements.ItemsSource = ReplaceAchievements.GetAchievements(replacements);
             lbIdentifyAchievements.ItemsSource = IdentifyAchievements.GetAchievements(identifyings);
+            lbFindAchievements.ItemsSource = FindAchievements.GetAchievements(findings);
         }
 
         // Handle Book Replacement Task Selection

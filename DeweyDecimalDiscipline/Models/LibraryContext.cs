@@ -22,6 +22,7 @@ namespace DeweyDecimalDiscipline.Models
         // Using Entity Framework Core
         public DbSet<Replacement> replacements { get; set; }
         public DbSet<Identifying> identifyings { get; set; }
+        public DbSet<Finding> findings { get; set; }
 
         public string folderPath;
         public string databasePath;
