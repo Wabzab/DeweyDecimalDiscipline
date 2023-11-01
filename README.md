@@ -8,6 +8,8 @@ After using the training software, the user must be able to:
 - Identify which broad area a book belongs to.
 - Find the call number for a specific topic.
 
+Note: The application makes use of a local database to keep track of scores and achievements which is stored in the user's `Documents` folder. 
+
 ## Requirements
 - Visual Studio 2019 (or newer)
 - .NET 6.0
